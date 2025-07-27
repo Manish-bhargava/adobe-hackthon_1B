@@ -5,7 +5,7 @@
         ],
         "persona": "Python tutor",
         "job_to_be_done": "I want to learn Python",
-        "processing_timestamp": "2025-07-27T22:23:01.752833"
+        "processing_timestamp": "2025-07-27T20:21:16.363794"
     },
     "extracted_sections": [
         {
@@ -16,92 +16,92 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 74,
-            "section_title": "1.8.9   Properties",
+            "page_number": 57,
+            "section_title": "A Python Book 1.7.1.5 Local variables Creating local variables ­­…",
             "importance_rank": 2
         },
         {
             "document": "python.pdf",
-            "page_number": 4,
-            "section_title": "A Python Book 1.6.7 continue and break statements ....................................................................... 48…",
+            "page_number": 74,
+            "section_title": "1.8.9   Properties",
             "importance_rank": 3
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 57,
-            "section_title": "A Python Book 1.7.1.5 Local variables Creating local variables ­­…",
-            "importance_rank": 4
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 6,
-            "section_title": "2.7.3.2   An EasyGUI file open dialog example ................................................ 161",
-            "importance_rank": 5
         },
         {
             "document": "python.pdf",
             "page_number": 13,
             "section_title": "A Python Book if (y) { f1() } f2() }…",
-            "importance_rank": 6
+            "importance_rank": 4
         },
         {
             "document": "python.pdf",
             "page_number": 131,
             "section_title": "2.6.3   Creating a lexer/tokenizer with Plex",
-            "importance_rank": 7
+            "importance_rank": 5
         },
         {
             "document": "python.pdf",
             "page_number": 260,
             "section_title": "4.1   Introduction",
-            "importance_rank": 8
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 7,
-            "section_title": "3.6.3.1   Order of arguments (positional, extra, and keyword args) ..................216",
-            "importance_rank": 9
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 112,
-            "section_title": "A Python Book */ o o o For more documentation…",
-            "importance_rank": 10
+            "importance_rank": 6
         },
         {
             "document": "python.pdf",
             "page_number": 161,
             "section_title": "2.8   Guidance on Packages and Modules",
-            "importance_rank": 11
+            "importance_rank": 7
         },
         {
             "document": "python.pdf",
             "page_number": 153,
             "section_title": "2.7   GUI Applications",
-            "importance_rank": 12
+            "importance_rank": 8
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 112,
+            "section_title": "A Python Book */ o o o For more documentation…",
+            "importance_rank": 9
         },
         {
             "document": "python.pdf",
             "page_number": 210,
             "section_title": "A Python Book 3.6 Functions A function has these characteristics:…",
-            "importance_rank": 13
+            "importance_rank": 10
         },
         {
             "document": "python.pdf",
             "page_number": 263,
             "section_title": "4.4   Some command line options you might want to know",
-            "importance_rank": 14
+            "importance_rank": 11
         },
         {
             "document": "python.pdf",
             "page_number": 58,
             "section_title": "1.7.1.7   Global variables and the global statement",
-            "importance_rank": 15
+            "importance_rank": 12
         },
         {
             "document": "python.pdf",
             "page_number": 69,
             "section_title": "A Python Book __all__ = ['func1', 'func2',] Then, from my_package…",
+            "importance_rank": 13
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 14,
+            "section_title": "A Python Book ● First­class objects: ○ Definition: Can (1)…",
+            "importance_rank": 14
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 224,
+            "section_title": "A Python Book One important special name is __init__. It's…",
+            "importance_rank": 15
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 125,
+            "section_title": "A Python Book # # To use the IPython interactive…",
             "importance_rank": 16
         },
         {
@@ -112,26 +112,26 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 125,
-            "section_title": "A Python Book # # To use the IPython interactive…",
+            "page_number": 233,
+            "section_title": "For simple cases, the decorator syntax enables us to do…",
             "importance_rank": 18
         },
         {
             "document": "python.pdf",
-            "page_number": 14,
-            "section_title": "A Python Book ●First­class objects: ○Definition: Can (1) pass to…",
+            "page_number": 31,
+            "section_title": "A Python Book ... missing Dictionary \"view\" objects provide dynamic…",
             "importance_rank": 19
         },
         {
             "document": "python.pdf",
-            "page_number": 224,
-            "section_title": "A Python Book One important special name is __init__. It's…",
+            "page_number": 39,
+            "section_title": "A Python Book Out[26]: [0, 1, 2, 3, 4, 5,…",
             "importance_rank": 20
         },
         {
             "document": "python.pdf",
-            "page_number": 233,
-            "section_title": "A Python Book For simple cases, the decorator syntax enables…",
+            "page_number": 109,
+            "section_title": "2.5   Extending and embedding Python",
             "importance_rank": 21
         },
         {
@@ -142,44 +142,44 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 109,
-            "section_title": "2.5   Extending and embedding Python",
-            "importance_rank": 23
-        },
-        {
-            "document": "python.pdf",
             "page_number": 238,
             "section_title": "3.8.1.3   More help with decorators",
-            "importance_rank": 24
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 31,
-            "section_title": "A Python Book ... missing Dictionary \"view\" objects provide dynamic…",
-            "importance_rank": 25
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 39,
-            "section_title": "A Python Book Out[26]: [0, 1, 2, 3, 4, 5,…",
-            "importance_rank": 26
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 11,
-            "section_title": "A Python Book 1.1.1 Resources Where else to get help:…",
-            "importance_rank": 27
+            "importance_rank": 23
         },
         {
             "document": "python.pdf",
             "page_number": 171,
             "section_title": "3.4.1.1   Literal representations of numbers",
-            "importance_rank": 28
+            "importance_rank": 24
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 11,
+            "section_title": "A Python Book 1.1.1 Resources Where else to get help:…",
+            "importance_rank": 25
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 110,
+            "section_title": "A Python Book Tools ­­ There are several tools that…",
+            "importance_rank": 26
         },
         {
             "document": "python.pdf",
             "page_number": 56,
             "section_title": "1.7.1.4   Arguments",
+            "importance_rank": 27
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 172,
+            "section_title": "A Python Book 10. Write several expressions using mixed arithmetic…",
+            "importance_rank": 28
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 5,
+            "section_title": "2.3.2   Example ­ A class containing a generator method......................................100",
             "importance_rank": 29
         },
         {
@@ -190,44 +190,44 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 110,
-            "section_title": "A Python Book Tools ­­ There are several tools that…",
-            "importance_rank": 31
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 172,
-            "section_title": "A Python Book 10.Write several expressions using mixed arithmetic (integers…",
-            "importance_rank": 32
-        },
-        {
-            "document": "python.pdf",
             "page_number": 55,
             "section_title": "1.7   Functions, Modules, Packages, and Debugging",
-            "importance_rank": 33
+            "importance_rank": 31
         },
         {
             "document": "python.pdf",
             "page_number": 24,
             "section_title": "A Python Book In [40]: In [40]: In [40]: def…",
-            "importance_rank": 34
+            "importance_rank": 32
         },
         {
             "document": "python.pdf",
             "page_number": 34,
-            "section_title": "A Python Book open is preferred. ●Lines read from a…",
-            "importance_rank": 35
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 17,
-            "section_title": "1.2.6   Program structure",
-            "importance_rank": 36
+            "section_title": "A Python Book open is preferred. ● Lines read from…",
+            "importance_rank": 33
         },
         {
             "document": "python.pdf",
             "page_number": 97,
             "section_title": "A Python Book Note 2: The iterator protocol has changed…",
+            "importance_rank": 34
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 17,
+            "section_title": "1.2.6   Program structure",
+            "importance_rank": 35
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 16,
+            "section_title": "1.2.3   Names and tokens",
+            "importance_rank": 36
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 174,
+            "section_title": "A Python Book divmod(x, y) the pair (x // y,…",
             "importance_rank": 37
         },
         {
@@ -239,37 +239,37 @@
         {
             "document": "python.pdf",
             "page_number": 259,
-            "section_title": "A Python Book fout.write('\\n') fout.close() test() 2.We can read the…",
+            "section_title": "A Python Book fout.write('\\n') fout.close() test() 2. We can read…",
             "importance_rank": 39
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 174,
-            "section_title": "A Python Book divmod(x, y) the pair (x // y,…",
-            "importance_rank": 40
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 16,
-            "section_title": "1.2.3   Names and tokens",
-            "importance_rank": 41
         },
         {
             "document": "python.pdf",
             "page_number": 160,
             "section_title": "2.7.3   EasyGUI",
-            "importance_rank": 42
+            "importance_rank": 40
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 19,
+            "section_title": "1.2.9   Code evaluation",
+            "importance_rank": 41
         },
         {
             "document": "python.pdf",
             "page_number": 113,
             "section_title": "A Python Book %module MyLibrary %{ #include \"MyLibrary.h\" %} %include…",
+            "importance_rank": 42
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 69,
+            "section_title": "1.8   Classes",
             "importance_rank": 43
         },
         {
             "document": "python.pdf",
-            "page_number": 50,
-            "section_title": "A Python Book ●Built­in exceptions ­­ http://docs.python.org/lib/module­exceptions.html. User defined exception…",
+            "page_number": 57,
+            "section_title": "1.7.1.6   Other things to know about functions",
             "importance_rank": 44
         },
         {
@@ -280,56 +280,56 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 19,
-            "section_title": "1.2.9   Code evaluation",
+            "page_number": 50,
+            "section_title": "A Python Book ● Built­in exceptions ­­ http://docs.python.org/lib/module­exceptions.html. User defined…",
             "importance_rank": 46
         },
         {
             "document": "python.pdf",
-            "page_number": 69,
-            "section_title": "1.8   Classes",
+            "page_number": 165,
+            "section_title": "A Python Book 3 Part 3 ­­ Python Workbook 3.1…",
             "importance_rank": 47
         },
         {
             "document": "python.pdf",
-            "page_number": 57,
-            "section_title": "1.7.1.6   Other things to know about functions",
+            "page_number": 4,
+            "section_title": "A Python Book 1.6.7 continue and break statements.......................................................................48 1.6.8 try:…",
             "importance_rank": 48
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 5,
-            "section_title": "2.3.2   Example ­ A class containing a generator method ...................................... 100",
-            "importance_rank": 49
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 141,
-            "section_title": "2.6.4   A survey of existing tools",
-            "importance_rank": 50
         },
         {
             "document": "python.pdf",
             "page_number": 223,
             "section_title": "A Python Book 3.7 Object­oriented programming and classes Classes provide…",
-            "importance_rank": 51
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 130,
-            "section_title": "A Python Book ●A recognizer method checks for and processes…",
-            "importance_rank": 52
+            "importance_rank": 49
         },
         {
             "document": "python.pdf",
             "page_number": 15,
             "section_title": "1.2   Lexical matters",
-            "importance_rank": 53
+            "importance_rank": 50
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 141,
+            "section_title": "2.6.4   A survey of existing tools",
+            "importance_rank": 51
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 130,
+            "section_title": "A Python Book ● A recognizer method checks for and…",
+            "importance_rank": 52
         },
         {
             "document": "python.pdf",
             "page_number": 213,
             "section_title": "3.6.2   Passing functions as arguments",
+            "importance_rank": 53
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 18,
+            "section_title": "1.2.7   Operators",
             "importance_rank": 54
         },
         {
@@ -340,68 +340,68 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 18,
-            "section_title": "1.2.7   Operators",
-            "importance_rank": 56
-        },
-        {
-            "document": "python.pdf",
             "page_number": 135,
             "section_title": "A Python Book # AST node types NoneNodeType = 0…",
-            "importance_rank": 57
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 165,
-            "section_title": "A Python Book 3 Part 3 ­­ Python Workbook 3.1…",
-            "importance_rank": 58
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 162,
-            "section_title": "2.8.3   Using Packages",
-            "importance_rank": 59
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 147,
-            "section_title": "A Python Book Node ­­ Type: TermNodeType Value: eee Node…",
-            "importance_rank": 60
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 12,
-            "section_title": "1.1.2   A general description of Python",
-            "importance_rank": 61
+            "importance_rank": 56
         },
         {
             "document": "python.pdf",
             "page_number": 167,
             "section_title": "3.2.2   Line structure",
-            "importance_rank": 62
+            "importance_rank": 57
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 12,
+            "section_title": "1.1.2   A general description of Python",
+            "importance_rank": 58
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 147,
+            "section_title": "A Python Book Node ­­ Type: TermNodeType Value: eee Node…",
+            "importance_rank": 59
         },
         {
             "document": "python.pdf",
             "page_number": 170,
             "section_title": "3.4.1   Numbers",
-            "importance_rank": 63
+            "importance_rank": 60
         },
         {
             "document": "python.pdf",
-            "page_number": 207,
-            "section_title": "3.5.7   Exceptions and the try:except: and raise statements",
-            "importance_rank": 64
+            "page_number": 162,
+            "section_title": "2.8.3   Using Packages",
+            "importance_rank": 61
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 6,
+            "section_title": "2.7.3.2   An EasyGUI file open dialog example................................................161",
+            "importance_rank": 62
         },
         {
             "document": "python.pdf",
             "page_number": 68,
             "section_title": "1.7.5   Packages",
-            "importance_rank": 65
+            "importance_rank": 63
         },
         {
             "document": "python.pdf",
             "page_number": 20,
             "section_title": "1.3   Statements and inspection ­­ preliminaries",
+            "importance_rank": 64
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 207,
+            "section_title": "3.5.7   Exceptions and the try:except: and raise statements",
+            "importance_rank": 65
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 62,
+            "section_title": "A Python Book t.test(lambda first, last: '%s %s' % (first,…",
             "importance_rank": 66
         },
         {
@@ -418,20 +418,20 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 62,
-            "section_title": "A Python Book t.test(lambda first, last: '%s %s' % (first,…",
+            "page_number": 168,
+            "section_title": "3.2.3   Indentation and program structure",
             "importance_rank": 69
         },
         {
             "document": "python.pdf",
-            "page_number": 269,
-            "section_title": "4.7   Special situations and uses",
+            "page_number": 235,
+            "section_title": "A Python Book 1. A function that contains and returns…",
             "importance_rank": 70
         },
         {
             "document": "python.pdf",
-            "page_number": 235,
-            "section_title": "A Python Book 1.A function that contains and returns an…",
+            "page_number": 41,
+            "section_title": "A Python Book file in the package is imported. Question:…",
             "importance_rank": 71
         },
         {
@@ -442,38 +442,38 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 41,
-            "section_title": "A Python Book file in the package is imported. Question:…",
+            "page_number": 15,
+            "section_title": "1.1.3   Interactive Python",
             "importance_rank": 73
         },
         {
             "document": "python.pdf",
-            "page_number": 108,
-            "section_title": "OK",
+            "page_number": 91,
+            "section_title": "A Python Book \"\\w\" (any alphanumeric character), \"\\W\" (any non­alphanumeric…",
             "importance_rank": 74
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 168,
-            "section_title": "3.2.3   Indentation and program structure",
-            "importance_rank": 75
         },
         {
             "document": "python.pdf",
             "page_number": 62,
             "section_title": "1.7.3   Iterators and generators",
-            "importance_rank": 76
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 52,
-            "section_title": "1.6.10.1   Writing a context manager",
-            "importance_rank": 77
+            "importance_rank": 75
         },
         {
             "document": "python.pdf",
             "page_number": 73,
-            "section_title": "A Python Book @classmethod. ●See the description of classmethod() built­in…",
+            "section_title": "A Python Book @classmethod. ● See the description of classmethod()…",
+            "importance_rank": 76
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 228,
+            "section_title": "A Python Book if __name__ == '__main__': test() Notes: ○…",
+            "importance_rank": 77
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 269,
+            "section_title": "4.7   Special situations and uses",
             "importance_rank": 78
         },
         {
@@ -485,49 +485,49 @@
         {
             "document": "python.pdf",
             "page_number": 85,
-            "section_title": "A Python Book main() Notes: 1.If you run this code,…",
+            "section_title": "A Python Book main() Notes: 1. If you run this…",
             "importance_rank": 80
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 91,
-            "section_title": "A Python Book \"\\w\" (any alphanumeric character), \"\\W\" (any non­alphanumeric…",
-            "importance_rank": 81
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 15,
-            "section_title": "1.1.3   Interactive Python",
-            "importance_rank": 82
         },
         {
             "document": "python.pdf",
             "page_number": 190,
             "section_title": "3.4.4.1   Literal representation of dictionaries",
-            "importance_rank": 83
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 257,
-            "section_title": "A Python Book 1.Printing out information from YAML is as…",
-            "importance_rank": 84
+            "importance_rank": 81
         },
         {
             "document": "python.pdf",
             "page_number": 20,
-            "section_title": "A Python Book ●The built­in function id() returns the same…",
-            "importance_rank": 85
+            "section_title": "A Python Book ● The built­in function id() returns the…",
+            "importance_rank": 82
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 108,
+            "section_title": "OK",
+            "importance_rank": 83
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 52,
+            "section_title": "1.6.10.1   Writing a context manager",
+            "importance_rank": 84
         },
         {
             "document": "python.pdf",
             "page_number": 183,
             "section_title": "3.4.3.1   Characters",
+            "importance_rank": 85
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 211,
+            "section_title": "A Python Book test() 3.6.1 Optional arguments and default values…",
             "importance_rank": 86
         },
         {
             "document": "python.pdf",
-            "page_number": 228,
-            "section_title": "A Python Book if __name__ == '__main__': test() Notes: ○We…",
+            "page_number": 257,
+            "section_title": "A Python Book 1. Printing out information from YAML is…",
             "importance_rank": 87
         },
         {
@@ -539,31 +539,31 @@
         {
             "document": "python.pdf",
             "page_number": 45,
-            "section_title": "A Python Book http://docs.python.org/lib/typeiter.html. ●We can create an iterator object…",
+            "section_title": "A Python Book http://docs.python.org/lib/typeiter.html. ● We can create an iterator…",
             "importance_rank": 89
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 211,
-            "section_title": "A Python Book test() 3.6.1 Optional arguments and default values…",
-            "importance_rank": 90
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 160,
-            "section_title": "A Python Book A little guidance: ●There is a pre­defined…",
-            "importance_rank": 91
         },
         {
             "document": "python.pdf",
             "page_number": 149,
             "section_title": "A Python Book test() Here is some sample data: abcd,defg…",
-            "importance_rank": 92
+            "importance_rank": 90
         },
         {
             "document": "python.pdf",
             "page_number": 133,
             "section_title": "A Python Book if len(args) != 1: usage() infileName =…",
+            "importance_rank": 91
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 160,
+            "section_title": "A Python Book A little guidance: ● There is a…",
+            "importance_rank": 92
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 200,
+            "section_title": "A Python Book {'vegetable': 'green beans', 'fruit': 'nectarine'} 3. Assignment…",
             "importance_rank": 93
         },
         {
@@ -574,158 +574,158 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 200,
-            "section_title": "A Python Book {'vegetable': 'green beans', 'fruit': 'nectarine'} 3.Assignment along…",
+            "page_number": 167,
+            "section_title": "A Python Book < > <= >= == != <>…",
             "importance_rank": 95
         },
         {
             "document": "python.pdf",
-            "page_number": 167,
-            "section_title": "A Python Book < > <= >= == != <>…",
+            "page_number": 205,
+            "section_title": "A Python Book Exercises: 1. Given the following two lists…",
             "importance_rank": 96
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 163,
-            "section_title": "A Python Book As our example, imagine that we have…",
-            "importance_rank": 97
         },
         {
             "document": "python.pdf",
             "page_number": 93,
             "section_title": "A Python Book value: 25 value: 15 no match Explanation:…",
-            "importance_rank": 98
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 232,
-            "section_title": "A Python Book ○When we run this script, it prints…",
-            "importance_rank": 99
+            "importance_rank": 97
         },
         {
             "document": "python.pdf",
             "page_number": 118,
             "section_title": "A Python Book prime: 11 This next example shows how…",
+            "importance_rank": 98
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 3,
+            "section_title": "A Python Book Contents 1 Part 1 ­­ Beginning Python...........................................................................................10…",
+            "importance_rank": 99
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 163,
+            "section_title": "As our example, imagine that we have a directory containing…",
             "importance_rank": 100
         },
         {
             "document": "python.pdf",
             "page_number": 111,
-            "section_title": "A Python Book return NULL; } /* if */ ○Use…",
+            "section_title": "A Python Book return NULL; } /* if */ ○…",
             "importance_rank": 101
         },
         {
             "document": "python.pdf",
-            "page_number": 262,
-            "section_title": "A Python Book And, if you want to automatically over­write…",
+            "page_number": 232,
+            "section_title": "A Python Book ○ When we run this script, it…",
             "importance_rank": 102
         },
         {
             "document": "python.pdf",
-            "page_number": 76,
-            "section_title": "A Python Book data­type: class D(dict): def __init__(self, data=None, name='no_name'):…",
-            "importance_rank": 103
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 53,
-            "section_title": "A Python Book ●The __enter__ method is called before our…",
-            "importance_rank": 104
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 205,
-            "section_title": "A Python Book Exercises: 1.Given the following two lists of…",
-            "importance_rank": 105
-        },
-        {
-            "document": "python.pdf",
             "page_number": 98,
-            "section_title": "A Python Book ●A class that defines both a next()…",
-            "importance_rank": 106
+            "section_title": "A Python Book ● A class that defines both a…",
+            "importance_rank": 103
         },
         {
             "document": "python.pdf",
             "page_number": 165,
             "section_title": "3.2   Lexical Structures",
-            "importance_rank": 107
+            "importance_rank": 104
         },
         {
             "document": "python.pdf",
-            "page_number": 250,
-            "section_title": "A Python Book ●The pysqlite web page ­­ http://oss.itsystementwicklung.de/trac/pysqlite/ If…",
-            "importance_rank": 108
+            "page_number": 53,
+            "section_title": "A Python Book ● The __enter__ method is called before…",
+            "importance_rank": 105
         },
         {
             "document": "python.pdf",
-            "page_number": 166,
-            "section_title": "A Python Book 2.the_last_item and The_Last_Item 3.itemi and itemj 4.item1…",
-            "importance_rank": 109
+            "page_number": 262,
+            "section_title": "A Python Book And, if you want to automatically over­write…",
+            "importance_rank": 106
         },
         {
             "document": "python.pdf",
             "page_number": 26,
-            "section_title": "A Python Book separated by a comma. Solution: >>> first…",
-            "importance_rank": 110
+            "section_title": "1.4.3.1   The new string.format method",
+            "importance_rank": 107
         },
         {
             "document": "python.pdf",
-            "page_number": 143,
-            "section_title": "A Python Book # Representation of a node in the…",
-            "importance_rank": 111
+            "page_number": 166,
+            "section_title": "A Python Book 2. the_last_item and The_Last_Item 3. itemi and…",
+            "importance_rank": 108
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 76,
+            "section_title": "A Python Book data­type: class D(dict): def __init__(self, data=None, name='no_name'):…",
+            "importance_rank": 109
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 17,
+            "section_title": "A Python Book ● Reduces the need for a coding…",
+            "importance_rank": 110
         },
         {
             "document": "python.pdf",
             "page_number": 217,
             "section_title": "A Python Book def main(): a = {'aa': 11, 'bb':…",
-            "importance_rank": 112
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 17,
-            "section_title": "A Python Book ●Reduces the need for a coding standard.…",
-            "importance_rank": 113
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 92,
-            "section_title": "A Python Book <_sre.SRE_Match object at 0x401e9608> Notes: ●When a…",
-            "importance_rank": 114
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 29,
-            "section_title": "A Python Book codecs.open() in the codecs module ­­ http://docs.python.org/2/library/codecs.html#codecs.open.…",
-            "importance_rank": 115
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 25,
-            "section_title": "A Python Book In [19]: size = 25 In [20]:…",
-            "importance_rank": 116
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 23,
-            "section_title": "A Python Book ●Insert ­­ mylist.insert(index, newitem) . Note on…",
-            "importance_rank": 117
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 230,
-            "section_title": "3.7.5   Class variables, class methods, and static methods",
-            "importance_rank": 118
+            "importance_rank": 111
         },
         {
             "document": "python.pdf",
             "page_number": 2,
             "section_title": "A Python Book Revision 1.3a Date December 15, 2013 Copyright…",
+            "importance_rank": 112
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 250,
+            "section_title": "A Python Book ● The pysqlite web page ­­ http://oss.itsystementwicklung.de/trac/pysqlite/…",
+            "importance_rank": 113
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 26,
+            "section_title": "A Python Book separated by a comma. Solution: >>> first…",
+            "importance_rank": 114
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 92,
+            "section_title": "A Python Book <_sre.SRE_Match object at 0x401e9608> Notes: ● When…",
+            "importance_rank": 115
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 230,
+            "section_title": "3.7.5   Class variables, class methods, and static methods",
+            "importance_rank": 116
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 143,
+            "section_title": "A Python Book # Representation of a node in the…",
+            "importance_rank": 117
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 29,
+            "section_title": "A Python Book codecs.open() in the codecs module ­­ http://docs.python.org/2/library/codecs.html#codecs.open.…",
+            "importance_rank": 118
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 25,
+            "section_title": "A Python Book In [19]: size = 25 In [20]:…",
             "importance_rank": 119
         },
         {
             "document": "python.pdf",
-            "page_number": 67,
-            "section_title": "A Python Book print '=' * 40 a1.set_initlevel(initLevel) for level,…",
+            "page_number": 23,
+            "section_title": "A Python Book ● Insert ­­ mylist.insert(index, newitem). Note on…",
             "importance_rank": 120
         },
         {
@@ -736,44 +736,44 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 3,
-            "section_title": "A Python Book Contents 1 Part 1 ­­ Beginning Python…",
+            "page_number": 4,
+            "section_title": "1.7.1.7   Global variables and the global statement.............................................58",
             "importance_rank": 122
         },
         {
             "document": "python.pdf",
-            "page_number": 28,
-            "section_title": "A Python Book In [126]: type(a) is type(u'') Out[126]: True…",
+            "page_number": 67,
+            "section_title": "A Python Book print '=' * 40 a1.set_initlevel(initLevel) for level,…",
             "importance_rank": 123
         },
         {
             "document": "python.pdf",
             "page_number": 5,
-            "section_title": "2.1   Introduction ­­ Python 201 ­­ (Slightly) Advanced Python Topics .......................90",
+            "section_title": "2.1   Introduction ­­ Python 201 ­­ (Slightly) Advanced Python Topics.......................90",
             "importance_rank": 124
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 28,
+            "section_title": "A Python Book In [126]: type(a) is type(u'') Out[126]: True…",
+            "importance_rank": 125
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 164,
+            "section_title": "2.9   End Matter",
+            "importance_rank": 126
         },
         {
             "document": "python.pdf",
             "page_number": 220,
             "section_title": "A Python Book Note that in recent versions of Python,…",
-            "importance_rank": 125
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 106,
-            "section_title": "2.4   Unit Tests",
-            "importance_rank": 126
+            "importance_rank": 127
         },
         {
             "document": "python.pdf",
             "page_number": 198,
             "section_title": "3.5   Statements",
-            "importance_rank": 127
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 184,
-            "section_title": "A Python Book 3.4.3.2 Operators on strings You can concatenate…",
             "importance_rank": 128
         },
         {
@@ -784,68 +784,68 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 151,
-            "section_title": "A Python Book def test(): args = sys.argv[1:] if len(args)…",
+            "page_number": 106,
+            "section_title": "2.4   Unit Tests",
             "importance_rank": 130
         },
         {
             "document": "python.pdf",
-            "page_number": 19,
-            "section_title": "A Python Book +, ­ Addition and subtraction *, /,…",
+            "page_number": 22,
+            "section_title": "A Python Book ● range(n) creates a list of n…",
             "importance_rank": 131
         },
         {
             "document": "python.pdf",
-            "page_number": 22,
-            "section_title": "A Python Book ●range(n) creates a list of n integers.…",
+            "page_number": 173,
+            "section_title": "A Python Book 1. Use the int data type to…",
             "importance_rank": 132
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 71,
-            "section_title": "A Python Book self.name = name A small gotcha ­­…",
-            "importance_rank": 133
         },
         {
             "document": "python.pdf",
             "page_number": 30,
             "section_title": "A Python Book >>> dir({}) Indexing ­­ Access or add…",
+            "importance_rank": 133
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 184,
+            "section_title": "A Python Book 3.4.3.2 Operators on strings You can concatenate…",
             "importance_rank": 134
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 173,
-            "section_title": "A Python Book 1.Use the int data type to construct…",
-            "importance_rank": 135
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 99,
-            "section_title": "A Python Book dir(anIter): ['__class__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__',…",
-            "importance_rank": 136
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 52,
-            "section_title": "A Python Book Notes: ●In order to pass in multiple…",
-            "importance_rank": 137
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 164,
-            "section_title": "2.9   End Matter",
-            "importance_rank": 138
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 94,
-            "section_title": "A Python Book Comments: ●Use multiple parenthesized substrings in the…",
-            "importance_rank": 139
         },
         {
             "document": "python.pdf",
             "page_number": 75,
             "section_title": "1.8.10   Interfaces",
+            "importance_rank": 135
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 151,
+            "section_title": "A Python Book def test(): args = sys.argv[1:] if len(args)…",
+            "importance_rank": 136
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 52,
+            "section_title": "A Python Book Notes: ● In order to pass in…",
+            "importance_rank": 137
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 55,
+            "section_title": "1.7.1.2   Returning values",
+            "importance_rank": 138
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 71,
+            "section_title": "A Python Book self.name = name A small gotcha ­­…",
+            "importance_rank": 139
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 19,
+            "section_title": "A Python Book +, ­ Addition and subtraction *, /,…",
             "importance_rank": 140
         },
         {
@@ -856,62 +856,62 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 265,
-            "section_title": "4.6.1   Implementing custom subclasses",
+            "page_number": 99,
+            "section_title": "A Python Book dir(anIter): ['__class__', '__delattr__', '__doc__', '__getattribute__', '__hash__', '__init__',…",
             "importance_rank": 142
         },
         {
             "document": "python.pdf",
-            "page_number": 24,
-            "section_title": "1.4.3   Strings",
+            "page_number": 199,
+            "section_title": "A Python Book >>> buffer 'abcdefgh' 3. The += operator…",
             "importance_rank": 143
         },
         {
             "document": "python.pdf",
-            "page_number": 199,
-            "section_title": "A Python Book >>> buffer 'abcdefgh' 3.The += operator appends…",
+            "page_number": 94,
+            "section_title": "Comments: A Python Book ● Use multiple parenthesized substrings in…",
             "importance_rank": 144
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 188,
-            "section_title": "3.4.3.5   Unicode strings",
-            "importance_rank": 145
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 236,
-            "section_title": "3.8.1.2   Stacked decorators",
-            "importance_rank": 146
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 27,
-            "section_title": "1.4.3.2   Unicode strings",
-            "importance_rank": 147
         },
         {
             "document": "python.pdf",
             "page_number": 75,
             "section_title": "A Python Book @description.setter def description(self, description): print 'setting description'…",
-            "importance_rank": 148
+            "importance_rank": 145
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 203,
+            "section_title": "A Python Book 2. The for: statement can iterate over…",
+            "importance_rank": 146
         },
         {
             "document": "python.pdf",
             "page_number": 239,
             "section_title": "A Python Book 3.8.2 Iterables 3.8.2.1 A few preliminaries on…",
+            "importance_rank": 147
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 24,
+            "section_title": "1.4.3   Strings",
+            "importance_rank": 148
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 187,
+            "section_title": "A Python Book >>> s1 = \"\"\"how does it feel…",
             "importance_rank": 149
         },
         {
             "document": "python.pdf",
-            "page_number": 96,
-            "section_title": "A Python Book while 1: target = raw_input('Enter a target…",
+            "page_number": 170,
+            "section_title": "3.4   Built­in Data Types",
             "importance_rank": 150
         },
         {
             "document": "python.pdf",
-            "page_number": 55,
-            "section_title": "1.7.1.2   Returning values",
+            "page_number": 27,
+            "section_title": "1.4.3.2   Unicode strings",
             "importance_rank": 151
         },
         {
@@ -922,386 +922,386 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 170,
-            "section_title": "3.4   Built­in Data Types",
+            "page_number": 178,
+            "section_title": "A Python Book Out[14]: (6,) 8. In order to create…",
             "importance_rank": 153
         },
         {
             "document": "python.pdf",
-            "page_number": 264,
-            "section_title": "4.5   The graphical front­end",
+            "page_number": 96,
+            "section_title": "A Python Book while 1: target = raw_input('Enter a target…",
             "importance_rank": 154
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 245,
-            "section_title": "A Python Book show_level(level + 1) print '­ text: \"%s\"'…",
-            "importance_rank": 155
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 91,
-            "section_title": "2.2.2   Compiling regular expressions",
-            "importance_rank": 156
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 203,
-            "section_title": "A Python Book 2.The for: statement can iterate over the…",
-            "importance_rank": 157
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 158,
-            "section_title": "A Python Book if len(args) != 0: usage() test() if…",
-            "importance_rank": 158
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 189,
-            "section_title": "A Python Book def exercise3(): a = u'abcd' print a.encode('utf­8')…",
-            "importance_rank": 159
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 170,
-            "section_title": "A Python Book if x > 5: show_config() Solutions: 1.Answer:…",
-            "importance_rank": 160
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 142,
-            "section_title": "A Python Book Func_call ::= Term '(' Func_call_list ')' Func_call_list…",
-            "importance_rank": 161
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 274,
-            "section_title": "USAGE_TEXT = \"\"\"",
-            "importance_rank": 162
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 187,
-            "section_title": "A Python Book >>> s1 = \"\"\"how does it feel…",
-            "importance_rank": 163
         },
         {
             "document": "python.pdf",
             "page_number": 169,
             "section_title": "3.3   Execution Model",
-            "importance_rank": 164
+            "importance_rank": 155
         },
         {
             "document": "python.pdf",
-            "page_number": 35,
-            "section_title": "1.4.6.1   The None value/type",
-            "importance_rank": 165
+            "page_number": 188,
+            "section_title": "3.4.3.5   Unicode strings",
+            "importance_rank": 156
         },
         {
             "document": "python.pdf",
-            "page_number": 218,
-            "section_title": "A Python Book 'name': 'birds', 'left_branch': { 'name': 'seed eaters',…",
-            "importance_rank": 166
+            "page_number": 142,
+            "section_title": "A Python Book Func_call ::= Term '(' Func_call_list ')' Func_call_list…",
+            "importance_rank": 157
         },
         {
             "document": "python.pdf",
-            "page_number": 235,
-            "section_title": "3.8.1.1   Decorators with arguments",
-            "importance_rank": 167
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 219,
-            "section_title": "3.6.6   Generators and iterators",
-            "importance_rank": 168
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 29,
-            "section_title": "1.4.4   Dictionaries",
-            "importance_rank": 169
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 79,
-            "section_title": "A Python Book def test(): f = file('tmp.py', 'r') for…",
-            "importance_rank": 170
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 35,
-            "section_title": "A Python Book 19 Defl:N 21 ­11% 05­29­08 17:08 1a892acd…",
-            "importance_rank": 171
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 153,
-            "section_title": "2.7.2   PyGtk",
-            "importance_rank": 172
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 17,
-            "section_title": "1.2.5   Doc strings",
-            "importance_rank": 173
+            "page_number": 236,
+            "section_title": "3.8.1.2   Stacked decorators",
+            "importance_rank": 158
         },
         {
             "document": "python.pdf",
             "page_number": 162,
             "section_title": "A Python Book 2.8.2 Implementing Packages A Python package is…",
-            "importance_rank": 174
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 186,
-            "section_title": "A Python Book >>> help(\"\".strip) Help on built­in function strip:…",
-            "importance_rank": 175
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 178,
-            "section_title": "A Python Book Out[14]: (6,) 8.In order to create an…",
-            "importance_rank": 176
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 140,
-            "section_title": "A Python Book Node ­­ Type FuncCallNodeType Node ­­ Type…",
-            "importance_rank": 177
+            "importance_rank": 159
         },
         {
             "document": "python.pdf",
             "page_number": 192,
             "section_title": "3.4.4.3   Methods on dictionaries",
-            "importance_rank": 178
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 178,
-            "section_title": "3.4.2.2   Operators on lists",
-            "importance_rank": 179
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 46,
-            "section_title": "A Python Book print x test() Note that the iterator…",
-            "importance_rank": 180
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 270,
-            "section_title": "4.7.1.2   Step 2 ­­ add application­specific code",
-            "importance_rank": 181
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 182,
-            "section_title": "3.4.3   Strings",
-            "importance_rank": 182
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 91,
-            "section_title": "2.2.3   Using regular expressions",
-            "importance_rank": 183
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 185,
-            "section_title": "A Python Book \"horizontal divider line\": >>> s1 = '­'…",
-            "importance_rank": 184
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 148,
-            "section_title": "2.6.6.1   Parsing comma­delimited lines",
-            "importance_rank": 185
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 164,
-            "section_title": "A Python Book Now, to create a distribution file, we…",
-            "importance_rank": 186
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 95,
-            "section_title": "A Python Book Here is an even more complex example…",
-            "importance_rank": 187
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 196,
-            "section_title": "A Python Book Solutions: 1.Use the open() built­in function to…",
-            "importance_rank": 188
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 179,
-            "section_title": "A Python Book Examples: 1.Create two (small) lists. Extend the…",
-            "importance_rank": 189
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 72,
-            "section_title": "1.8.7   Class variables",
-            "importance_rank": 190
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 38,
-            "section_title": "A Python Book Out[15]: {'aa': 11, 'bb': 22} In [16]:…",
-            "importance_rank": 191
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 202,
-            "section_title": "A Python Book if color == RED: print \"It's red.\"…",
-            "importance_rank": 192
+            "importance_rank": 160
         },
         {
             "document": "python.pdf",
             "page_number": 153,
             "section_title": "A Python Book ['max', '11', '52', '10', '17', '85', '112',…",
-            "importance_rank": 193
+            "importance_rank": 161
         },
         {
             "document": "python.pdf",
-            "page_number": 155,
+            "page_number": 158,
+            "section_title": "A Python Book if len(args) != 0: usage() test() if…",
+            "importance_rank": 162
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 38,
+            "section_title": "A Python Book Out[15]: {'aa': 11, 'bb': 22} In [16]:…",
+            "importance_rank": 163
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 264,
+            "section_title": "4.5   The graphical front­end",
+            "importance_rank": 164
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 170,
+            "section_title": "A Python Book if x > 5: show_config() Solutions: 1.…",
+            "importance_rank": 165
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 202,
+            "section_title": "A Python Book if color == RED: print \"It's red.\"…",
+            "importance_rank": 166
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 179,
+            "section_title": "A Python Book Examples: 1. Create two (small) lists. Extend…",
+            "importance_rank": 167
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 46,
+            "section_title": "A Python Book print x test() Note that the iterator…",
+            "importance_rank": 168
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 189,
+            "section_title": "A Python Book def exercise3(): a = u'abcd' print a.encode('utf­8')…",
+            "importance_rank": 169
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 35,
+            "section_title": "A Python Book 19 Defl:N 21 ­11% 05­29­08 17:08 1a892acd…",
+            "importance_rank": 170
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 29,
+            "section_title": "1.4.4   Dictionaries",
+            "importance_rank": 171
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 91,
+            "section_title": "2.2.2   Compiling regular expressions",
+            "importance_rank": 172
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 265,
+            "section_title": "4.6.1   Implementing custom subclasses",
+            "importance_rank": 173
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 153,
+            "section_title": "2.7.2   PyGtk",
+            "importance_rank": 174
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 235,
+            "section_title": "3.8.1.1   Decorators with arguments",
+            "importance_rank": 175
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 178,
+            "section_title": "3.4.2.2   Operators on lists",
+            "importance_rank": 176
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 17,
+            "section_title": "1.2.5   Doc strings",
+            "importance_rank": 177
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 35,
+            "section_title": "1.4.6.1   The None value/type",
+            "importance_rank": 178
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 79,
+            "section_title": "A Python Book def test(): f = file('tmp.py', 'r') for…",
+            "importance_rank": 179
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 164,
+            "section_title": "A Python Book Now, to create a distribution file, we…",
+            "importance_rank": 180
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 245,
+            "section_title": "A Python Book show_level(level + 1) print '­ text: \"%s\"'…",
+            "importance_rank": 181
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 274,
             "section_title": "USAGE_TEXT = \"\"\"",
-            "importance_rank": 194
+            "importance_rank": 182
         },
         {
             "document": "python.pdf",
-            "page_number": 217,
-            "section_title": "3.6.5   Recursive functions",
-            "importance_rank": 195
+            "page_number": 218,
+            "section_title": "A Python Book 'name': 'birds', 'left_branch': { 'name': 'seed eaters',…",
+            "importance_rank": 183
         },
         {
             "document": "python.pdf",
-            "page_number": 173,
-            "section_title": "3.4.1.2   Operators for numbers",
-            "importance_rank": 196
+            "page_number": 219,
+            "section_title": "3.6.6   Generators and iterators",
+            "importance_rank": 184
         },
         {
             "document": "python.pdf",
-            "page_number": 33,
-            "section_title": "A Python Book ●A file object that is open for…",
-            "importance_rank": 197
+            "page_number": 185,
+            "section_title": "A Python Book \"horizontal divider line\": >>> s1 = '­'…",
+            "importance_rank": 185
         },
         {
             "document": "python.pdf",
-            "page_number": 251,
-            "section_title": "A Python Book test() 3.The description attribute in the cursor…",
-            "importance_rank": 198
+            "page_number": 186,
+            "section_title": "A Python Book >>> help(\"\".strip) Help on built­in function strip:…",
+            "importance_rank": 186
         },
         {
             "document": "python.pdf",
             "page_number": 216,
             "section_title": "3.6.3.1   Order of arguments (positional, extra, and keyword args)",
-            "importance_rank": 199
+            "importance_rank": 187
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 91,
+            "section_title": "2.2.3   Using regular expressions",
+            "importance_rank": 188
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 173,
+            "section_title": "3.4.1.2   Operators for numbers",
+            "importance_rank": 189
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 140,
+            "section_title": "A Python Book Node ­­ Type FuncCallNodeType Node ­­ Type…",
+            "importance_rank": 190
         },
         {
             "document": "python.pdf",
             "page_number": 177,
-            "section_title": "A Python Book 10.Pop one item off the end of…",
-            "importance_rank": 200
+            "section_title": "A Python Book 10. Pop one item off the end…",
+            "importance_rank": 191
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 182,
+            "section_title": "3.4.3   Strings",
+            "importance_rank": 192
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 156,
+            "section_title": "A Python Book ○ It creates one button for each…",
+            "importance_rank": 193
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 270,
+            "section_title": "4.7.1.2   Step 2 ­­ add application­specific code",
+            "importance_rank": 194
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 33,
+            "section_title": "A Python Book ● A file object that is open…",
+            "importance_rank": 195
         },
         {
             "document": "python.pdf",
             "page_number": 261,
             "section_title": "4.2   Generating the code",
-            "importance_rank": 201
+            "importance_rank": 196
         },
         {
             "document": "python.pdf",
-            "page_number": 156,
-            "section_title": "A Python Book ○It creates one button for each button…",
-            "importance_rank": 202
+            "page_number": 95,
+            "section_title": "A Python Book Here is an even more complex example…",
+            "importance_rank": 197
         },
         {
             "document": "python.pdf",
-            "page_number": 227,
-            "section_title": "A Python Book inheritance tree to find the show_name method…",
-            "importance_rank": 203
+            "page_number": 155,
+            "section_title": "USAGE_TEXT = \"\"\"",
+            "importance_rank": 198
         },
         {
             "document": "python.pdf",
-            "page_number": 102,
-            "section_title": "2.3.3   Example ­ An iterator class",
-            "importance_rank": 204
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 150,
-            "section_title": "A Python Book args = arg + ZeroOrMore(\",\" + arg)…",
-            "importance_rank": 205
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 53,
-            "section_title": "1.6.10.2   Using the with: statement",
-            "importance_rank": 206
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 175,
-            "section_title": "3.4.2   Lists",
-            "importance_rank": 207
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 197,
-            "section_title": "3.4.6   A few miscellaneous data types",
-            "importance_rank": 208
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 275,
-            "section_title": "USAGE_MSG = \"\"\"\\",
-            "importance_rank": 209
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 106,
-            "section_title": "A Python Book parentheses rather than square brackets. Unlike a…",
-            "importance_rank": 210
+            "page_number": 217,
+            "section_title": "3.6.5   Recursive functions",
+            "importance_rank": 199
         },
         {
             "document": "python.pdf",
             "page_number": 86,
             "section_title": "A Python Book doctest. There are examples and explanation in…",
-            "importance_rank": 211
+            "importance_rank": 200
         },
         {
             "document": "python.pdf",
-            "page_number": 273,
-            "section_title": "A Python Book upper_elements(self) supermod.contactType.subclass = contactTypeSub # end class…",
-            "importance_rank": 212
+            "page_number": 72,
+            "section_title": "1.8.7   Class variables",
+            "importance_rank": 201
         },
         {
             "document": "python.pdf",
-            "page_number": 274,
-            "section_title": "A Python Book if rootClass is None: rootTag = 'contact­list'…",
-            "importance_rank": 213
+            "page_number": 150,
+            "section_title": "A Python Book args = arg + ZeroOrMore(\",\" + arg)…",
+            "importance_rank": 202
         },
         {
             "document": "python.pdf",
-            "page_number": 246,
-            "section_title": "A Python Book show_level(level + 1) print '­ attribute ­­…",
-            "importance_rank": 214
+            "page_number": 53,
+            "section_title": "1.6.10.2   Using the with: statement",
+            "importance_rank": 203
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 175,
+            "section_title": "3.4.2   Lists",
+            "importance_rank": 204
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 227,
+            "section_title": "A Python Book inheritance tree to find the show_name method…",
+            "importance_rank": 205
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 196,
+            "section_title": "Solutions: A Python Book 1. Use the open() built­in function…",
+            "importance_rank": 206
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 148,
+            "section_title": "2.6.6.1   Parsing comma­delimited lines",
+            "importance_rank": 207
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 106,
+            "section_title": "A Python Book parentheses rather than square brackets. Unlike a…",
+            "importance_rank": 208
         },
         {
             "document": "python.pdf",
             "page_number": 221,
             "section_title": "A Python Book or False. 3. ``transforms`` ­­ (optional) A…",
+            "importance_rank": 209
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 47,
+            "section_title": "A Python Book ● [f(x) for x in iterable if…",
+            "importance_rank": 210
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 197,
+            "section_title": "3.4.6   A few miscellaneous data types",
+            "importance_rank": 211
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 251,
+            "section_title": "A Python Book test() 3. The description attribute in the…",
+            "importance_rank": 212
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 168,
+            "section_title": "A Python Book continuation character: total_count = tree_count + vegetable_count…",
+            "importance_rank": 213
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 40,
+            "section_title": "A Python Book # import pdb; pdb.set_trace() main() # or…",
+            "importance_rank": 214
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 102,
+            "section_title": "2.3.3   Example ­ An iterator class",
             "importance_rank": 215
         },
         {
             "document": "python.pdf",
-            "page_number": 139,
-            "section_title": "A Python Book #ipshell('(test) #1\\nCtrl­D to exit') result = None…",
+            "page_number": 193,
+            "section_title": "A Python Book Operation Result a.keys() a.update([b]) a copy of…",
             "importance_rank": 216
         },
         {
@@ -1312,416 +1312,416 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 188,
-            "section_title": "A Python Book 1.Create a string that contains a backslash…",
+            "page_number": 191,
+            "section_title": "A Python Book vegetables = { 'Eggplant': 'Purple', 'Tomato': 'Red',…",
             "importance_rank": 218
         },
         {
             "document": "python.pdf",
-            "page_number": 134,
-            "section_title": "A Python Book count is actually unneeded, since the position…",
+            "page_number": 188,
+            "section_title": "A Python Book 1. Create a string that contains a…",
             "importance_rank": 219
         },
         {
             "document": "python.pdf",
-            "page_number": 94,
-            "section_title": "2.2.6   Replacing multiple items",
+            "page_number": 275,
+            "section_title": "USAGE_MSG = \"\"\"\\",
             "importance_rank": 220
         },
         {
             "document": "python.pdf",
-            "page_number": 101,
-            "section_title": "A Python Book else: self.children = children def set_name(self, name):…",
+            "page_number": 161,
+            "section_title": "A Python Book fonts. ● File and directory boxes enable…",
             "importance_rank": 221
         },
         {
             "document": "python.pdf",
-            "page_number": 93,
-            "section_title": "2.2.5   Extracting multiple items",
+            "page_number": 139,
+            "section_title": "A Python Book #ipshell('(test) #1\\nCtrl­D to exit') result = None…",
             "importance_rank": 222
         },
         {
             "document": "python.pdf",
-            "page_number": 100,
-            "section_title": "2.3.2   Example ­ A class containing a generator method",
+            "page_number": 273,
+            "section_title": "A Python Book upper_elements(self) supermod.contactType.subclass = contactTypeSub # end class…",
             "importance_rank": 223
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 168,
-            "section_title": "A Python Book continuation character: total_count = tree_count + vegetable_count…",
-            "importance_rank": 224
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 193,
-            "section_title": "A Python Book Operation Result a.keys() a copy of a's…",
-            "importance_rank": 225
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 191,
-            "section_title": "A Python Book vegetables = { 'Eggplant': 'Purple', 'Tomato': 'Red',…",
-            "importance_rank": 226
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 40,
-            "section_title": "A Python Book # import pdb; pdb.set_trace() main() # or…",
-            "importance_rank": 227
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 248,
-            "section_title": "A Python Book Over­write? (y/n): ' % outdocname) if response…",
-            "importance_rank": 228
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 275,
-            "section_title": "A Python Book # # member_specs_test.py # import sys import…",
-            "importance_rank": 229
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 187,
-            "section_title": "3.4.3.4   Raw strings",
-            "importance_rank": 230
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 161,
-            "section_title": "A Python Book fonts. ●File and directory boxes enable the…",
-            "importance_rank": 231
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 268,
-            "section_title": "A Python Book subclasses of classes in the module people_api,…",
-            "importance_rank": 232
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 83,
-            "section_title": "A Python Book \"\"\" def usage(): print USAGE_TEXT sys.exit(­1) def…",
-            "importance_rank": 233
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 105,
-            "section_title": "A Python Book d b ­­­­­­­­­­ d b ============================== b…",
-            "importance_rank": 234
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 231,
-            "section_title": "A Python Book print '%s: %s' % (ASimpleClass.description , msg,…",
-            "importance_rank": 235
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 104,
-            "section_title": "A Python Book 2.3.4 Example ­ An iterator class that…",
-            "importance_rank": 236
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 276,
-            "section_title": "4.7.1.4   Step 4 ­­ run the test application",
-            "importance_rank": 237
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 47,
-            "section_title": "A Python Book ●[f(x) for x in iterable if t(x)]…",
-            "importance_rank": 238
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 237,
-            "section_title": "A Python Book \"stack\" that with another decorator that prints…",
-            "importance_rank": 239
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 212,
-            "section_title": "A Python Book 2.Write a function that takes the following…",
-            "importance_rank": 240
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 70,
-            "section_title": "1.8.3   The constructor",
-            "importance_rank": 241
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 63,
-            "section_title": "A Python Book For more information on iterators, see the…",
-            "importance_rank": 242
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 49,
-            "section_title": "A Python Book ●Using break, write a while statement that…",
-            "importance_rank": 243
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 144,
-            "section_title": "A Python Book 'LPAR','RPAR', 'COMMA', ) # Tokens t_LPAR =…",
-            "importance_rank": 244
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 181,
-            "section_title": "['ALICE', 'BERTRAND', 'CHARLENE']",
-            "importance_rank": 245
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 32,
-            "section_title": "1.4.5   Files",
-            "importance_rank": 246
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 51,
-            "section_title": "A Python Book pass ●Write a try:except: statement that raises…",
-            "importance_rank": 247
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 43,
-            "section_title": "A Python Book Line: Message #1 Line: Message #2 Line:…",
-            "importance_rank": 248
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 277,
-            "section_title": "4.8.4   Constructors and their default values",
-            "importance_rank": 249
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 128,
-            "section_title": "A Python Book break self.tokenType, self.token, self.lineNo = self.tokens.next() return…",
-            "importance_rank": 250
         },
         {
             "document": "python.pdf",
             "page_number": 48,
             "section_title": "A Python Book for item in data1: if item >…",
-            "importance_rank": 251
+            "importance_rank": 224
         },
         {
             "document": "python.pdf",
-            "page_number": 229,
-            "section_title": "A Python Book self.name, ) level += 1 if self.left_branch…",
-            "importance_rank": 252
+            "page_number": 246,
+            "section_title": "A Python Book show_level(level + 1) print '­ attribute ­­…",
+            "importance_rank": 225
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 93,
+            "section_title": "2.2.5   Extracting multiple items",
+            "importance_rank": 226
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 274,
+            "section_title": "A Python Book if rootClass is None: rootTag = 'contact­list'…",
+            "importance_rank": 227
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 101,
+            "section_title": "A Python Book else: self.children = children def set_name(self, name):…",
+            "importance_rank": 228
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 134,
+            "section_title": "A Python Book count is actually unneeded, since the position…",
+            "importance_rank": 229
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 275,
+            "section_title": "A Python Book # # member_specs_test.py # import sys import…",
+            "importance_rank": 230
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 105,
+            "section_title": "A Python Book d b ­­­­­­­­­­ d b ============================== b…",
+            "importance_rank": 231
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 94,
+            "section_title": "2.2.6   Replacing multiple items",
+            "importance_rank": 232
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 100,
+            "section_title": "2.3.2   Example ­ A class containing a generator method",
+            "importance_rank": 233
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 43,
+            "section_title": "A Python Book Line: Message #1 Line: Message #2 Line:…",
+            "importance_rank": 234
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 212,
+            "section_title": "A Python Book 2. Write a function that takes the…",
+            "importance_rank": 235
         },
         {
             "document": "python.pdf",
             "page_number": 175,
             "section_title": "3.4.1.3   Methods on numbers",
-            "importance_rank": 253
+            "importance_rank": 236
         },
         {
             "document": "python.pdf",
-            "page_number": 85,
-            "section_title": "1.9.3.4   Guidance on Unit Testing",
-            "importance_rank": 254
+            "page_number": 248,
+            "section_title": "A Python Book Over­write? (y/n): ' % outdocname) if response…",
+            "importance_rank": 237
         },
         {
             "document": "python.pdf",
-            "page_number": 192,
-            "section_title": "A Python Book \"green\" ­­ \"0:255:0\" \"blue\" ­­ \"0:0:255\" 2.Print…",
-            "importance_rank": 255
+            "page_number": 268,
+            "section_title": "A Python Book subclasses of classes in the module people_api,…",
+            "importance_rank": 238
         },
         {
             "document": "python.pdf",
-            "page_number": 70,
-            "section_title": "A Python Book In [22]: In [22]: a = A()…",
-            "importance_rank": 256
+            "page_number": 49,
+            "section_title": "A Python Book ● Using break, write a while statement…",
+            "importance_rank": 239
         },
         {
             "document": "python.pdf",
-            "page_number": 244,
-            "section_title": "A Python Book minidom.Node.TEXT_NODE): show_level(level + 1) print '­ data:…",
-            "importance_rank": 257
+            "page_number": 104,
+            "section_title": "A Python Book 2.3.4 Example ­ An iterator class that…",
+            "importance_rank": 240
         },
         {
             "document": "python.pdf",
-            "page_number": 56,
-            "section_title": "A Python Book In [11]: print b 16 1.7.1.3 Parameters…",
-            "importance_rank": 258
+            "page_number": 187,
+            "section_title": "3.4.3.4   Raw strings",
+            "importance_rank": 241
         },
         {
             "document": "python.pdf",
-            "page_number": 66,
-            "section_title": "A Python Book # # Generator method #2 # This…",
-            "importance_rank": 259
+            "page_number": 181,
+            "section_title": "['ALICE', 'BERTRAND', 'CHARLENE']",
+            "importance_rank": 242
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 83,
+            "section_title": "A Python Book \"\"\" def usage(): print USAGE_TEXT sys.exit(­1) def…",
+            "importance_rank": 243
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 63,
+            "section_title": "A Python Book For more information on iterators, see the…",
+            "importance_rank": 244
         },
         {
             "document": "python.pdf",
             "page_number": 206,
             "section_title": "A Python Book idx = 0 while idx < len(numbers):…",
-            "importance_rank": 260
+            "importance_rank": 245
         },
         {
             "document": "python.pdf",
-            "page_number": 225,
-            "section_title": "3.7.2   Inheritance ­­ Implementing a subclass",
-            "importance_rank": 261
+            "page_number": 231,
+            "section_title": "A Python Book print '%s: %s' % (ASimpleClass.description , msg,…",
+            "importance_rank": 246
         },
         {
             "document": "python.pdf",
-            "page_number": 109,
-            "section_title": "A Python Book ●By default, the tests are run in…",
-            "importance_rank": 262
+            "page_number": 64,
+            "section_title": "A Python Book it = limit_iterator(alist, 4) for item in…",
+            "importance_rank": 247
         },
         {
             "document": "python.pdf",
-            "page_number": 61,
-            "section_title": "A Python Book decorator, you should search for the documentation…",
-            "importance_rank": 263
+            "page_number": 56,
+            "section_title": "A Python Book In [11]: print b 16 1.7.1.3 Parameters…",
+            "importance_rank": 248
         },
         {
             "document": "python.pdf",
-            "page_number": 92,
-            "section_title": "2.2.4   Using match objects to extract a value",
-            "importance_rank": 264
+            "page_number": 237,
+            "section_title": "A Python Book \"stack\" that with another decorator that prints…",
+            "importance_rank": 249
         },
         {
             "document": "python.pdf",
-            "page_number": 58,
-            "section_title": "A Python Book ●Write a function that takes a single…",
-            "importance_rank": 265
+            "page_number": 51,
+            "section_title": "A Python Book pass ● Write a try:except: statement that…",
+            "importance_rank": 250
         },
         {
             "document": "python.pdf",
-            "page_number": 36,
-            "section_title": "1.4.6.3   Sets and frozensets",
-            "importance_rank": 266
+            "page_number": 70,
+            "section_title": "A Python Book In [22]: In [22]: a = A()…",
+            "importance_rank": 251
         },
         {
             "document": "python.pdf",
-            "page_number": 191,
-            "section_title": "3.4.4.2   Operators on dictionaries",
-            "importance_rank": 267
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 32,
-            "section_title": "A Python Book ... ('aa', 111) ('cc', 333) ('bb', 222)…",
-            "importance_rank": 268
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 103,
-            "section_title": "A Python Book raise StopIteration value = self.seq[self.idx] self.idx +=…",
-            "importance_rank": 269
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 114,
-            "section_title": "A Python Book Type \"help\", \"copyright\", \"credits\" or \"license\" for…",
-            "importance_rank": 270
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 146,
-            "section_title": "A Python Book def main(): args = sys.argv[1:] try: opts,…",
-            "importance_rank": 271
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 67,
-            "section_title": "1.7.4   Modules",
-            "importance_rank": 272
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 195,
-            "section_title": "A Python Book 3.4.5 Files A Python file object represents…",
-            "importance_rank": 273
+            "page_number": 144,
+            "section_title": "A Python Book 'LPAR','RPAR', 'COMMA', ) # Tokens t_LPAR =…",
+            "importance_rank": 252
         },
         {
             "document": "python.pdf",
             "page_number": 37,
             "section_title": "1.6   Statements",
-            "importance_rank": 274
+            "importance_rank": 253
         },
         {
             "document": "python.pdf",
-            "page_number": 180,
-            "section_title": "3.4.2.4   List comprehensions",
-            "importance_rank": 275
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 44,
-            "section_title": "A Python Book True >>> 'aa' not in d False…",
-            "importance_rank": 276
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 80,
-            "section_title": "1.9.3.1   A simple example",
-            "importance_rank": 277
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 222,
-            "section_title": "A Python Book g]): print 'val: %d' % (val, )…",
-            "importance_rank": 278
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 204,
-            "section_title": "A Python Book In [5]: for idx in range(6): ...:…",
-            "importance_rank": 279
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 208,
-            "section_title": "A Python Book In this case, the exception type is…",
-            "importance_rank": 280
+            "page_number": 61,
+            "section_title": "A Python Book decorator, you should search for the documentation…",
+            "importance_rank": 254
         },
         {
             "document": "python.pdf",
             "page_number": 215,
             "section_title": "A Python Book Running this script produces the following: $…",
-            "importance_rank": 281
+            "importance_rank": 255
         },
         {
             "document": "python.pdf",
-            "page_number": 102,
-            "section_title": "A Python Book name: bill value: 222 name: fred value:…",
-            "importance_rank": 282
+            "page_number": 32,
+            "section_title": "A Python Book ... ('aa', 111) ('cc', 333) ('bb', 222)…",
+            "importance_rank": 256
         },
         {
             "document": "python.pdf",
-            "page_number": 65,
-            "section_title": "A Python Book 4 4. ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­ aaa bbb ccc reached…",
-            "importance_rank": 283
+            "page_number": 276,
+            "section_title": "4.7.1.4   Step 4 ­­ run the test application",
+            "importance_rank": 257
         },
         {
             "document": "python.pdf",
-            "page_number": 78,
-            "section_title": "A Python Book import pdb; pdb.set_trace() Example: if __name__ ==…",
-            "importance_rank": 284
+            "page_number": 180,
+            "section_title": "3.4.2.4   List comprehensions",
+            "importance_rank": 258
         },
         {
             "document": "python.pdf",
-            "page_number": 271,
-            "section_title": "A Python Book import member_specs_api as supermod etree_ = None…",
-            "importance_rank": 285
+            "page_number": 85,
+            "section_title": "1.9.3.4   Guidance on Unit Testing",
+            "importance_rank": 259
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 58,
+            "section_title": "A Python Book ● Write a function that takes a…",
+            "importance_rank": 260
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 32,
+            "section_title": "1.4.5   Files",
+            "importance_rank": 261
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 44,
+            "section_title": "A Python Book True >>> 'aa' not in d False…",
+            "importance_rank": 262
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 192,
+            "section_title": "A Python Book \"green\" ­­ \"0:255:0\" \"blue\" ­­ \"0:0:255\" 2.…",
+            "importance_rank": 263
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 70,
+            "section_title": "1.8.3   The constructor",
+            "importance_rank": 264
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 67,
+            "section_title": "1.7.4   Modules",
+            "importance_rank": 265
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 109,
+            "section_title": "A Python Book ● By default, the tests are run…",
+            "importance_rank": 266
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 195,
+            "section_title": "A Python Book 3.4.5 Files A Python file object represents…",
+            "importance_rank": 267
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 128,
+            "section_title": "A Python Book break self.tokenType, self.token, self.lineNo = self.tokens.next() return…",
+            "importance_rank": 268
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 225,
+            "section_title": "3.7.2   Inheritance ­­ Implementing a subclass",
+            "importance_rank": 269
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 103,
+            "section_title": "A Python Book raise StopIteration value = self.seq[self.idx] self.idx +=…",
+            "importance_rank": 270
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 204,
+            "section_title": "A Python Book In [5]: for idx in range(6): ...:…",
+            "importance_rank": 271
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 191,
+            "section_title": "3.4.4.2   Operators on dictionaries",
+            "importance_rank": 272
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 36,
+            "section_title": "1.4.6.3   Sets and frozensets",
+            "importance_rank": 273
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 9,
+            "section_title": "A Python Book Preface This book is a collection of…",
+            "importance_rank": 274
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 66,
+            "section_title": "A Python Book # # Generator method #2 # This…",
+            "importance_rank": 275
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 229,
+            "section_title": "A Python Book self.name, ) level += 1 if self.left_branch…",
+            "importance_rank": 276
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 244,
+            "section_title": "A Python Book minidom.Node.TEXT_NODE): show_level(level + 1) print '­ data:…",
+            "importance_rank": 277
         },
         {
             "document": "python.pdf",
             "page_number": 54,
             "section_title": "A Python Book preferred. See example 3 above. 1.6.11 del…",
+            "importance_rank": 278
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 209,
+            "section_title": "A Python Book Notes: ○ Our except: clause caught the…",
+            "importance_rank": 279
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 92,
+            "section_title": "2.2.4   Using match objects to extract a value",
+            "importance_rank": 280
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 194,
+            "section_title": "A Python Book def test(): for key, value in Vegetables.items():…",
+            "importance_rank": 281
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 146,
+            "section_title": "A Python Book def main(): args = sys.argv[1:] try: opts,…",
+            "importance_rank": 282
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 277,
+            "section_title": "4.8.4   Constructors and their default values",
+            "importance_rank": 283
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 80,
+            "section_title": "1.9.3.1   A simple example",
+            "importance_rank": 284
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 114,
+            "section_title": "A Python Book Type \"help\", \"copyright\", \"credits\" or \"license\" for…",
+            "importance_rank": 285
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 5,
+            "section_title": "A Python Book 1.9.2 File input and output......................................................................................78 1.9.3 Unit…",
             "importance_rank": 286
         },
         {
@@ -1732,511 +1732,529 @@
         },
         {
             "document": "python.pdf",
-            "page_number": 9,
-            "section_title": "A Python Book Preface This book is a collection of…",
+            "page_number": 102,
+            "section_title": "A Python Book name: bill value: 222 name: fred value:…",
             "importance_rank": 288
         },
         {
             "document": "python.pdf",
-            "page_number": 64,
-            "section_title": "A Python Book it = limit_iterator(alist, 4) for item in…",
+            "page_number": 78,
+            "section_title": "Example: A Python Book import pdb; pdb.set_trace() if __name__ ==…",
             "importance_rank": 289
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 7,
+            "section_title": "A Python Book 3.4.2.2 Operators on lists.................................................................................178 3.4.2.3 Methods on…",
+            "importance_rank": 290
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 271,
+            "section_title": "A Python Book import member_specs_api as supermod etree_ = None…",
+            "importance_rank": 291
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 19,
+            "section_title": "1.2.8   Also see",
+            "importance_rank": 292
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 222,
+            "section_title": "A Python Book g]): print 'val: %d' % (val, )…",
+            "importance_rank": 293
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 65,
+            "section_title": "A Python Book 4 4. ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­ aaa bbb ccc reached…",
+            "importance_rank": 294
         },
         {
             "document": "python.pdf",
             "page_number": 27,
             "section_title": "A Python Book In [1]: 'aaa {1} bbb {0} ccc…",
-            "importance_rank": 290
+            "importance_rank": 295
         },
         {
             "document": "python.pdf",
-            "page_number": 209,
-            "section_title": "A Python Book Notes: ○Our except: clause caught the SizeError,…",
-            "importance_rank": 291
+            "page_number": 208,
+            "section_title": "A Python Book In this case, the exception type is…",
+            "importance_rank": 296
         },
         {
             "document": "python.pdf",
             "page_number": 201,
             "section_title": "A Python Book >>> print 'My name is \"%s\".' %…",
-            "importance_rank": 292
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 5,
-            "section_title": "A Python Book 1.9.2 File input and output ...................................................................................... 78…",
-            "importance_rank": 293
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 7,
-            "section_title": "A Python Book 3.4.2.2 Operators on lists................................................................................. 178 3.4.2.3 Methods…",
-            "importance_rank": 294
+            "importance_rank": 297
         },
         {
             "document": "python.pdf",
             "page_number": 176,
             "section_title": "A Python Book 3.4.2.1 Literal representation of lists The literal…",
-            "importance_rank": 295
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 240,
-            "section_title": "A Python Book def next(self): if self.current_index >= len(self.urls): raise…",
-            "importance_rank": 296
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 157,
-            "section_title": "USAGE_TEXT = \"\"\"",
-            "importance_rank": 297
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 159,
-            "section_title": "USAGE_TEXT = \"\"\"",
             "importance_rank": 298
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 126,
-            "section_title": "A Python Book self.children = [] for item in args:…",
-            "importance_rank": 299
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 150,
-            "section_title": "2.6.6.3   Parsing names, phone numbers, etc.",
-            "importance_rank": 300
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 267,
-            "section_title": "4.6.3   A combined approach",
-            "importance_rank": 301
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 253,
-            "section_title": "A Python Book print description print 'description:' for rowdescription in…",
-            "importance_rank": 302
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 100,
-            "section_title": "A Python Book 'grapefruit', ] def make_producer(collection, excludes): gen =…",
-            "importance_rank": 303
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 98,
-            "section_title": "2.3.1   Example ­ A generator function",
-            "importance_rank": 304
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 88,
-            "section_title": "A Python Book (name text, desc text, cat int)''') cursor.execute(…",
-            "importance_rank": 305
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 226,
-            "section_title": "A Python Book from simple_node import Node, Indents class Plant(Node):…",
-            "importance_rank": 306
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 254,
-            "section_title": "A Python Book rows = cursor.fetchall() if len(rows) > 0:…",
-            "importance_rank": 307
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 137,
-            "section_title": "A Python Book commandList.append(result) return ASTNode(ProgNodeType, commandList) def command_reco(self): if…",
-            "importance_rank": 308
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 149,
-            "section_title": "2.6.6.2   Parsing functors",
-            "importance_rank": 309
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 77,
-            "section_title": "A Python Book an instance is constructed. ○Give the subclass…",
-            "importance_rank": 310
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 185,
-            "section_title": "3.4.3.3   Methods on strings",
-            "importance_rank": 311
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 252,
-            "section_title": "A Python Book \"\"\" import sys import sqlite3 Values =…",
-            "importance_rank": 312
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 158,
-            "section_title": "2.7.2.3   A file selection dialog box",
-            "importance_rank": 313
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 42,
-            "section_title": "A Python Book http://docs.python.org/lib/module­pprint.html. String formatting ­­ Arguments are a…",
-            "importance_rank": 314
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 108,
-            "section_title": "A Python Book loader = unittest.TestLoader() # Change the test…",
-            "importance_rank": 315
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 127,
-            "section_title": "A Python Book raise RuntimeError, 'Empty file' result = self.prog_reco()…",
-            "importance_rank": 316
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 225,
-            "section_title": "A Python Book class Node(object): def __init__(self, name=None, children=None): self.name…",
-            "importance_rank": 317
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 84,
-            "section_title": "A Python Book the code: import unittest class UnitTests02(unittest.TestCase): def…",
-            "importance_rank": 318
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 154,
-            "section_title": "A Python Book 3.Create an instance of the dialog. 4.Run…",
-            "importance_rank": 319
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 156,
-            "section_title": "2.7.2.2   A simple text input dialog box",
-            "importance_rank": 320
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 107,
-            "section_title": "A Python Book methods with the prefix \"test\". Here is…",
-            "importance_rank": 321
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 138,
-            "section_title": "A Python Book RuntimeError.__init__(self, msg) self.lineNo = lineNo self.msg =…",
-            "importance_rank": 322
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 157,
-            "section_title": "A Python Book button.connect(\"clicked\", self.quit) button.set_flags(gtk.CAN_DEFAULT) self.action_area.pack_start(button) button.show() self.ret =…",
-            "importance_rank": 323
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 236,
-            "section_title": "A Python Book decorated function. Solutions: 1.Implement this decorator that…",
-            "importance_rank": 324
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 227,
-            "section_title": "3.7.3   Classes and polymorphism",
-            "importance_rank": 325
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 194,
-            "section_title": "A Python Book def test(): for key, value in Vegetables.items():…",
-            "importance_rank": 326
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 240,
-            "section_title": "3.9   Applications and Recipes",
-            "importance_rank": 327
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 238,
-            "section_title": "A Python Book def inner1(func): def inner2(*args, **kwargs): print '>>…",
-            "importance_rank": 328
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 132,
-            "section_title": "A Python Book def count_lines(scanner, text): scanner.line_count += 1 print…",
-            "importance_rank": 329
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 121,
-            "section_title": "A Python Book #include \"test_c_lib.h\" int calculate(int width, int height)…",
-            "importance_rank": 330
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 75,
-            "section_title": "1.8.11   New­style classes",
-            "importance_rank": 331
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 152,
-            "section_title": "\"|       |  A1  |  B1  |  C1  |  D1  |  A2  |  B2  |  C2  |  D2  |\" +",
-            "importance_rank": 332
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 164,
-            "section_title": "2.9.2   See Also",
-            "importance_rank": 333
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 234,
-            "section_title": "A Python Book def show_instance_count(cls): print 'instance count: %d' %…",
-            "importance_rank": 334
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 131,
-            "section_title": "A Python Book Child: ddd Node ­­ Type FuncCallListNodeType Node…",
-            "importance_rank": 335
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 159,
-            "section_title": "A Python Book else: self.ret = self.get_filename() self.quit() def file_sel_box(title=\"Browse\",…",
-            "importance_rank": 336
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 82,
-            "section_title": "A Python Book self.failUnless(check_result(result)) def test_3_compare_subclasses(self): cmd = 'diff out1sub.py…",
-            "importance_rank": 337
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 182,
-            "section_title": "A Python Book def test(): names1 = ['alice', 'bertrand', 'charlene',…",
-            "importance_rank": 338
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 115,
-            "section_title": "A Python Book float calcArea(float width, float height); float calcVolume(float…",
-            "importance_rank": 339
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 214,
-            "section_title": "A Python Book if __name__ == '__main__': main() Running this…",
-            "importance_rank": 340
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 249,
-            "section_title": "A Python Book print root.xpath(\"//name/text()\") print root.xpath(\"//@id\") test() And, when…",
-            "importance_rank": 341
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 89,
-            "section_title": "A Python Book http://docs.python.org/inst/inst.html pip is becoming popular for installing…",
-            "importance_rank": 342
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 230,
-            "section_title": "A Python Book AnimalNode('black headed phoebe'), ]), ]) ]) def…",
-            "importance_rank": 343
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 81,
-            "section_title": "1.9.3.2   Unit test suites",
-            "importance_rank": 344
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 80,
-            "section_title": "A Python Book 1.9.3 Unit tests For more documentation on…",
-            "importance_rank": 345
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 68,
-            "section_title": "A Python Book the module): def main(): o o o…",
-            "importance_rank": 346
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 88,
-            "section_title": "1.9.6   Installing Python packages",
-            "importance_rank": 347
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 90,
-            "section_title": "2.2.1   Defining regular expressions",
-            "importance_rank": 348
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 197,
-            "section_title": "A Python Book Notes: ○The last two lines of this…",
-            "importance_rank": 349
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 117,
-            "section_title": "A Python Book return result And, here is a make…",
-            "importance_rank": 350
         },
         {
             "document": "python.pdf",
             "page_number": 169,
             "section_title": "A Python Book z = x + y print z…",
-            "importance_rank": 351
+            "importance_rank": 299
         },
         {
             "document": "python.pdf",
-            "page_number": 59,
-            "section_title": "....:     X = 6",
-            "importance_rank": 352
+            "page_number": 164,
+            "section_title": "2.9.2   See Also",
+            "importance_rank": 300
         },
         {
             "document": "python.pdf",
-            "page_number": 71,
-            "section_title": "1.8.5   Calling methods",
-            "importance_rank": 353
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 105,
-            "section_title": "2.3.5   Example ­ A list comprehension",
-            "importance_rank": 354
+            "page_number": 182,
+            "section_title": "A Python Book def test(): names1 = ['alice', 'bertrand', 'charlene',…",
+            "importance_rank": 301
         },
         {
             "document": "python.pdf",
             "page_number": 36,
             "section_title": "A Python Book ... clear >>> if flag is not…",
-            "importance_rank": 355
+            "importance_rank": 302
         },
         {
             "document": "python.pdf",
-            "page_number": 87,
-            "section_title": "A Python Book $ python test_doctest.py ­v Running test_doctest.__doc__ 0…",
-            "importance_rank": 356
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 116,
-            "section_title": "A Python Book s3 = '<<%s||%s>>' % (s1, s2) s4…",
-            "importance_rank": 357
+            "page_number": 236,
+            "section_title": "A Python Book decorated function. Solutions: 1. Implement this decorator…",
+            "importance_rank": 303
         },
         {
             "document": "python.pdf",
             "page_number": 277,
             "section_title": "A Python Book 4.8.2 Children defined with simple numeric types…",
-            "importance_rank": 358
+            "importance_rank": 304
         },
         {
             "document": "python.pdf",
-            "page_number": 277,
-            "section_title": "4.8.3   The type of an element's character content",
-            "importance_rank": 359
+            "page_number": 80,
+            "section_title": "A Python Book 1.9.3 Unit tests For more documentation on…",
+            "importance_rank": 305
         },
         {
             "document": "python.pdf",
-            "page_number": 170,
-            "section_title": "OK.",
-            "importance_rank": 360
+            "page_number": 105,
+            "section_title": "2.3.5   Example ­ A list comprehension",
+            "importance_rank": 306
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 68,
+            "section_title": "A Python Book the module): def main(): o o o…",
+            "importance_rank": 307
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 88,
+            "section_title": "1.9.6   Installing Python packages",
+            "importance_rank": 308
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 121,
+            "section_title": "A Python Book #include \"test_c_lib.h\" int calculate(int width, int height)…",
+            "importance_rank": 309
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 240,
+            "section_title": "A Python Book def next(self): if self.current_index >= len(self.urls): raise…",
+            "importance_rank": 310
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 214,
+            "section_title": "A Python Book if __name__ == '__main__': main() Running this…",
+            "importance_rank": 311
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 238,
+            "section_title": "A Python Book def inner1(func): def inner2(*args, **kwargs): print '>>…",
+            "importance_rank": 312
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 116,
+            "section_title": "A Python Book s3 = '<<%s||%s>>' % (s1, s2) s4…",
+            "importance_rank": 313
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 157,
+            "section_title": "A Python Book button.connect(\"clicked\", self.quit) button.set_flags(gtk.CAN_DEFAULT) self.action_area.pack_start(button) button.show() self.ret =…",
+            "importance_rank": 314
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 59,
+            "section_title": "....:     X = 6",
+            "importance_rank": 315
         },
         {
             "document": "python.pdf",
             "page_number": 74,
             "section_title": "A Python Book In [2]: def dec_count(): ...: A.count ­=…",
-            "importance_rank": 361
+            "importance_rank": 316
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 115,
+            "section_title": "A Python Book float calcArea(float width, float height); float calcVolume(float…",
+            "importance_rank": 317
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 127,
+            "section_title": "A Python Book raise RuntimeError, 'Empty file' result = self.prog_reco()…",
+            "importance_rank": 318
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 42,
+            "section_title": "A Python Book http://docs.python.org/lib/module­pprint.html. String formatting ­­ Arguments are a…",
+            "importance_rank": 319
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 87,
+            "section_title": "A Python Book $ python test_doctest.py ­v Running test_doctest.__doc__ 0…",
+            "importance_rank": 320
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 170,
+            "section_title": "OK.",
+            "importance_rank": 321
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 225,
+            "section_title": "A Python Book class Node(object): def __init__(self, name=None, children=None): self.name…",
+            "importance_rank": 322
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 149,
+            "section_title": "2.6.6.2   Parsing functors",
+            "importance_rank": 323
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 117,
+            "section_title": "A Python Book return result And, here is a make…",
+            "importance_rank": 324
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 100,
+            "section_title": "A Python Book 'grapefruit', ] def make_producer(collection, excludes): gen =…",
+            "importance_rank": 325
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 157,
+            "section_title": "USAGE_TEXT = \"\"\"",
+            "importance_rank": 326
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 230,
+            "section_title": "A Python Book AnimalNode('black headed phoebe'), ]), ]) ]) def…",
+            "importance_rank": 327
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 81,
+            "section_title": "1.9.3.2   Unit test suites",
+            "importance_rank": 328
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 131,
+            "section_title": "A Python Book Child: ddd Node ­­ Type FuncCallListNodeType Node…",
+            "importance_rank": 329
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 159,
+            "section_title": "USAGE_TEXT = \"\"\"",
+            "importance_rank": 330
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 254,
+            "section_title": "A Python Book rows = cursor.fetchall() if len(rows) > 0:…",
+            "importance_rank": 331
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 132,
+            "section_title": "A Python Book def count_lines(scanner, text): scanner.line_count += 1 print…",
+            "importance_rank": 332
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 98,
+            "section_title": "2.3.1   Example ­ A generator function",
+            "importance_rank": 333
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 154,
+            "section_title": "A Python Book 3. Create an instance of the dialog.…",
+            "importance_rank": 334
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 77,
+            "section_title": "A Python Book an instance is constructed. ○ Give the…",
+            "importance_rank": 335
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 253,
+            "section_title": "A Python Book print description print 'description:' for rowdescription in…",
+            "importance_rank": 336
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 126,
+            "section_title": "A Python Book self.children = [] for item in args:…",
+            "importance_rank": 337
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 249,
+            "section_title": "A Python Book print root.xpath(\"//name/text()\") print root.xpath(\"//@id\") test() And, when…",
+            "importance_rank": 338
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 84,
+            "section_title": "A Python Book the code: import unittest class UnitTests02(unittest.TestCase): def…",
+            "importance_rank": 339
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 234,
+            "section_title": "A Python Book def show_instance_count(cls): print 'instance count: %d' %…",
+            "importance_rank": 340
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 88,
+            "section_title": "A Python Book (name text, desc text, cat int)''') cursor.execute(…",
+            "importance_rank": 341
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 159,
+            "section_title": "A Python Book else: self.ret = self.get_filename() self.quit() def file_sel_box(title=\"Browse\",…",
+            "importance_rank": 342
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 156,
+            "section_title": "2.7.2.2   A simple text input dialog box",
+            "importance_rank": 343
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 252,
+            "section_title": "A Python Book \"\"\" import sys import sqlite3 Values =…",
+            "importance_rank": 344
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 75,
+            "section_title": "1.8.11   New­style classes",
+            "importance_rank": 345
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 137,
+            "section_title": "A Python Book commandList.append(result) return ASTNode(ProgNodeType, commandList) def command_reco(self): if…",
+            "importance_rank": 346
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 138,
+            "section_title": "A Python Book RuntimeError.__init__(self, msg) self.lineNo = lineNo self.msg =…",
+            "importance_rank": 347
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 150,
+            "section_title": "2.6.6.3   Parsing names, phone numbers, etc.",
+            "importance_rank": 348
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 267,
+            "section_title": "4.6.3   A combined approach",
+            "importance_rank": 349
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 226,
+            "section_title": "A Python Book from simple_node import Node, Indents class Plant(Node):…",
+            "importance_rank": 350
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 158,
+            "section_title": "2.7.2.3   A file selection dialog box",
+            "importance_rank": 351
         },
         {
             "document": "python.pdf",
             "page_number": 152,
-            "section_title": "|       |  A1  |  B1  |  C1  |  D1  |  A2  |  B2  |  C2  |  D2  |",
-            "importance_rank": 362
+            "section_title": "\"|       |  A1  |  B1  |  C1  |  D1  |  A2  |  B2  |  C2  |  D2  |\" +",
+            "importance_rank": 352
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 89,
+            "section_title": "A Python Book http://docs.python.org/inst/inst.html pip is becoming popular for installing…",
+            "importance_rank": 353
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 227,
+            "section_title": "3.7.3   Classes and polymorphism",
+            "importance_rank": 354
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 107,
+            "section_title": "methods with the prefix \"test\". Here is an example: A…",
+            "importance_rank": 355
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 82,
+            "section_title": "A Python Book self.failUnless(check_result(result)) def test_3_compare_subclasses(self): cmd = 'diff out1sub.py…",
+            "importance_rank": 356
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 185,
+            "section_title": "3.4.3.3   Methods on strings",
+            "importance_rank": 357
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 197,
+            "section_title": "A Python Book Notes: ○ The last two lines of…",
+            "importance_rank": 358
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 108,
+            "section_title": "A Python Book loader = unittest.TestLoader() # Change the test…",
+            "importance_rank": 359
         },
         {
             "document": "python.pdf",
             "page_number": 59,
             "section_title": "...:      X = 4",
+            "importance_rank": 360
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 90,
+            "section_title": "2.2.1   Defining regular expressions",
+            "importance_rank": 361
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 72,
+            "section_title": "1.8.8   Class methods and static methods",
+            "importance_rank": 362
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 152,
+            "section_title": "|       |  A1  |  B1  |  C1  |  D1  |  A2  |  B2  |  C2  |  D2  |",
             "importance_rank": 363
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 240,
+            "section_title": "3.9   Applications and Recipes",
+            "importance_rank": 364
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 71,
+            "section_title": "1.8.5   Calling methods",
+            "importance_rank": 365
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 277,
+            "section_title": "4.8.3   The type of an element's character content",
+            "importance_rank": 366
         }
     ],
     "subsection_analysis": [
         {
             "document": "python.pdf",
             "page_number": 37,
-            "refined_text": "A Python Book Python objects are first­class objects. Statements are executed. Modeling \"real world\" objects."
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 74,
-            "refined_text": "Page 74 Example: class TestProperty(object): def __init__(self, description): self._description = description def _set_description(self, description): print 'setting description' self._description = description def _get_description(self): print 'getting description' return self._description description = property(_get_description, _set_description) The property built­in function is also a decorator. So, the following is equivalent to the above example: class TestProperty(object): def __init__(self, description): self._description = description @property def description(self): print 'getting description' return self._description"
-        },
-        {
-            "document": "python.pdf",
-            "page_number": 4,
-            "refined_text": "49 1.6.9   raise statement............................................................................................... 51 Page 4 52 1.6.10.1   Writing a context manager ..................................................................."
+            "refined_text": "Object­oriented programming in Python. A Python Book Python objects are first­class objects. An overview of the structure of a typical class: (1) methods; (2) the constructor; (3) class (static) variables; (4) super/subclasses."
         },
         {
             "document": "python.pdf",
             "page_number": 57,
-            "refined_text": "A Python Book 1.7.1.5   Local variables Creating local variables ­­ Any binding operation creates a local variable. Variable look­up ­­ The LGB/LEGB rule ­­ The local, enclosing, global, built­in scopes are searched in that order. The global statement ­­ Inside a function, we must use  global when we want to set the value of a global variable."
+            "refined_text": "See: http://www.python.org/dev/peps/pep­0227/ A Python Book 1.7.1.5   Local variables Creating local variables ­­ Any binding operation creates a local variable. Examples are (1) parameters of a function; (2) assignment to a variable in a function; (3) the import statement; (4) etc. Contrast with accessing a variable."
         },
         {
             "document": "python.pdf",
-            "page_number": 6,
-            "refined_text": "176 Page 6 165 3.1   Introduction......................................................................................................... 165 3.2   Lexical Structures................................................................................................ 165 3.2.1   Variables and names .................................................................................... 165 3.2.2   Line structure............................................................................................... 167 3.2.3   Indentation and program structure ............................................................... 173 3.4.1.3   Methods on numbers ............................................................................ 175 3.4.2   Lists............................................................................................................. 175 3.4.2.1   Literal representation of lists ..............................................................."
+            "page_number": 74,
+            "refined_text": "Example: class TestProperty(object): def __init__(self, description): self._description = description def _set_description(self, description): print 'setting description' self._description = description def _get_description(self): print 'getting description' return self._description description = property(_get_description, _set_description) So, the following is equivalent to the above example: class TestProperty(object): def __init__(self, description): self._description = description @property def description(self): print 'getting description' return self._description Page 74 The property built­in function enables us to write classes in a way that does not require a user of the class to use getters and setters."
         },
         {
             "document": "python.pdf",
             "page_number": 13,
-            "refined_text": "●Explicitness Page 13 Simple object definition. Data hiding by agreement."
+            "refined_text": "An overview of Python: ● A scripting language ­­ Python is suitable (1) for embedding, (2) for writing small unstructured scripts, (3) for \"quick and dirty\" programs. (2) Python encourages us to write code that is clear and well­structured. A Python Book if (y) { f1() } f2() } in Python would be: if x: if y: f1() f2() And, the convention is to use four spaces (and no hard tabs) for each level of indentation."
         },
         {
             "document": "python.pdf",
             "page_number": 131,
-            "refined_text": "Here is a simple example from the Plex tutorial: #!/usr/bin/env python \"\"\" Sample Plex lexer Usage: python plex_example.py inputfile \"\"\" import sys import Plex Page 131 In order to use it, you may want to add Plex­1.1.4/Plex to your PYTHONPATH. You can obtain Plex at http://www.cosc.canterbury.ac.nz/~greg/python/Plex/."
+            "refined_text": "You can obtain Plex at http://www.cosc.canterbury.ac.nz/~greg/python/Plex/. Here is a simple example from the Plex tutorial: #!/usr/bin/env python \"\"\" Sample Plex lexer Usage: python plex_example.py inputfile \"\"\" import sys import Plex Page 131 In order to use it, you may want to add Plex­1.1.4/Plex to your PYTHONPATH."
         },
         {
             "document": "python.pdf",
             "page_number": 260,
-            "refined_text": "The generated Python code contains: ●A class definition for each element defined in the XML schema document. The user can add methods to the subclasses in order to process the contents of an XML document. These data structures represent the elements in an XML document described by the XML schema."
+            "refined_text": "Additional information: ● If you plan to work through this tutorial, you may find it helpful to look at the sample code that accompanies this tutorial. You can find it in the distribution under: tutorial/ tutorial/Code/ ● You can find additional information about generateDS.py here: http://http://www.davekuhlman.org/#generateds­py That documentation is also included in the distribution. The parser creates and populates a tree structure of instances of the generated Python classes."
         },
         {
             "document": "python.pdf",
-            "page_number": 7,
-            "refined_text": "227 3.7.4   Recursive calls to methods .......................................................................... 228 3.7.5   Class variables, class methods, and static methods ..................................... 230 Page 7 223 3.7.1   The constructor............................................................................................ 224 3.7.2   Inheritance ­­ Implementing a subclass ....................................................... 225 3.7.3   Classes and polymorphism .........................................................................."
+            "page_number": 161,
+            "refined_text": "2.8.1   Introduction Python has an excellent range of implementation organization structures. These range from statements and control structures (at a low level) through functions, methods, and classes (at an intermediate level) and modules and packages at an upper level. This section provides some guidance with the use of packages."
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 153,
+            "refined_text": "2.7.1   Introduction This section will help you to put a GUI (graphical user interface) in your Python program. See the WxPython home page at: http://www.wxpython.org/ We will use a particular GUI library: PyGTK."
         },
         {
             "document": "python.pdf",
             "page_number": 112,
-            "refined_text": "○The reference count ­­ You will need to follow Python's rules for reference counting that Python uses to garbage collect objects. For example, see: ■http://www.python.org/doc/current/api/intObjects.html ■http://www.python.org/doc/current/api/stringObjects.html ■http://www.python.org/doc/current/api/tupleObjects.html ■http://www.python.org/doc/current/api/listObjects.html ■http://www.python.org/doc/current/api/dictObjects.html ■Etc. In these cases you should increment the reference count with Py_INCREF."
+            "refined_text": "See the \"Python/C API Reference Manual\" for a description of these functions. A Python Book */ o o o For more documentation on errors and exceptions, see: http://www.python.org/doc/current/api/exceptionHandling.html. For each built­in Python type there is a set of API functions to create and manipulate it."
+        },
+        {
+            "document": "python.pdf",
+            "page_number": 210,
+            "refined_text": "A Python Book 3.6   Functions A function has these characteristics: ● It groups a block of code together so that we can call it by name. The return statement enables us to return a value from a function: def list_sum(values): sum = 0 for value in values: sum += value return sum def test(): a = [11, 22, 33, 44, ] print list_sum(a) if __ Here is a simple example/template: def function_name(arg1, arg2): local_var1 = arg1 + 1 local_var2 = arg2 * 2 return local_var1 + local_var2"
         }
     ]
 }

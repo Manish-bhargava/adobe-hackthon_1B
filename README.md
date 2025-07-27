@@ -20,8 +20,7 @@ spacer designs, a traveller planning a trip, or a student mastering Python.
 docker build -t doc-analyst .
 
 # 2. run on a sample collection (JSON input mounted from host)
-docker run --rm -v "$PWD/Challenge_1b/Collection\ 1":/app/collection doc-analyst \
-    collection/challenge1b_input.json > collection/challenge1b_output.json
+docker run --rm -v "$PWD/Challenge_1b/Collection 1":/app/collection doc-analyst python run_analysis.py collection/challenge1b_input.json
 ```
 Running locally?
 ```bash
