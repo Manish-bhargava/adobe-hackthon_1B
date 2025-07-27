@@ -31,8 +31,9 @@ python run_analysis.py Challenge_1b/Collection\ 1/challenge1b_input.json
 ```
 
 ## 4. Input / Output schema
+<img width="1061" height="601" alt="Screenshot 2025-07-27 at 10 41 37 PM" src="https://github.com/user-attachments/assets/cbd7c09b-1b06-41b2-a296-367b22d2c8d2" />
 
-*Input (`challenge1b_input.json`) /(this should be inside Collection folder as aatched image beloew)*
+*Input (`challenge1b_input.json`)*
 
 ```json
 {
@@ -52,6 +53,8 @@ python run_analysis.py Challenge_1b/Collection\ 1/challenge1b_input.json
     {"document": "file.pdf", "page_number": 4, "refined_text": "Short summary ..."}
   ]
 }
+
+
 ```
 
 ## 5. Architecture ⚙️
