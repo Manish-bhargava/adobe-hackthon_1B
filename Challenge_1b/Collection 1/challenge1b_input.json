@@ -1,0 +1,11 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_002",
+    "test_case_name": "python tutor"
+  },
+  "documents": [
+    { "filename": "python.pdf", "title": "Python tutor" }
+  ],
+  "persona": { "role": "Python tutor" },
+  "job_to_be_done": { "task": "I want to learn Python" }
+}

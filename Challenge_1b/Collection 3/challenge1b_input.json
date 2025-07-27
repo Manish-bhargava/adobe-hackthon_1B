@@ -1,0 +1,12 @@
+{
+    "challenge_info": {
+      "challenge_id": "round_1b_002",
+      "test_case_name": "dentist"
+    },
+    "documents": [
+      { "filename":"DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf", "title": "manish adobe" }
+    ],
+    "persona": { "role": "dentist" },
+    "job_to_be_done": { "task": "I want to learn about different spacers designs in completed denture prosthodontics" }
+  }
+  

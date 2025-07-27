@@ -1,0 +1,13 @@
+
+{
+    "challenge_info": {
+      "challenge_id": "round_1b_002",
+      "test_case_name": "travel_planning"
+    },
+    "documents": [
+      { "filename": "italy-guide-by-Arno.pdf", "title": "tarvel planner" }
+    ],
+    "persona": { "role": "traveller planner" },
+    "job_to_be_done": { "task": "I want to plan a trip to Italy" }
+  }
+  
