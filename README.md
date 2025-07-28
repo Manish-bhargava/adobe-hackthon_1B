@@ -21,13 +21,13 @@ spacer designs, a traveller planning a trip, or a student mastering Python.
 # 1. Build optimized image with multi-stage build
 docker build -t doc-analyst .
 
-# 2. Run on Collection 1 (Python PDF/sample test case 1)
+# 2. Run on Collection 1 (Cybersecurity research paper PDF/sample test case 1)
 docker run --rm -v "$PWD/Challenge_1b/Collection 1":/app/collection doc-analyst python run_analysis.py collection/challenge1b_input.json
 
-# 3. Run on Collection 2 (sample test case 2)
+# 3. Run on Collection 2 (sample test case 2-travel planner for italy)
 docker run --rm -v "$PWD/Challenge_1b/Collection 2":/app/collection doc-analyst python run_analysis.py collection/challenge1b_input.json
 
-# 4. Run on Collection 3 (sample test case 3)
+# 4. Run on Collection 3 (sample test case 3-dental student want to learn about tooth decay)
 docker run --rm -v "$PWD/Challenge_1b/Collection 3":/app/collection doc-analyst python run_analysis.py collection/challenge1b_input.json
 
 # 5. Run on custom collection
