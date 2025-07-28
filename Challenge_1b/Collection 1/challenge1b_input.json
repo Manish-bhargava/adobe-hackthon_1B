@@ -1,11 +1,11 @@
 {
   "challenge_info": {
     "challenge_id": "round_1b_002",
-    "test_case_name": "python tutor"
+    "test_case_name": "cybersecurity"
   },
   "documents": [
-    { "filename": "python.pdf", "title": "Python tutor" }
+    { "filename": "Cybersecurity.pdf", "title": "Cybersecurity" }
   ],
-  "persona": { "role": "Python tutor" },
-  "job_to_be_done": { "task": "I want to learn Python" }
+  "persona": { "role": "Cybersecurity" },
+  "job_to_be_done": { "task": "I want to learn about cybersecurity" }
 }

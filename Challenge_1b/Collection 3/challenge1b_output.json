@@ -5,132 +5,120 @@
         ],
         "persona": "dentist",
         "job_to_be_done": "I want to learn about different spacers designs in completed denture prosthodontics",
-        "processing_timestamp": "2025-07-27T22:35:57.981095"
+        "processing_timestamp": "2025-07-28T06:34:09.754885"
     },
     "extracted_sections": [
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 2,
-            "section_title": "MATERIALS USED FOR MAKING SP ACERS:",
+            "page_number": 5,
+            "section_title": "CONTRAINDICATIONS FOR USING SPACER",
             "importance_rank": 1
         },
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
             "page_number": 2,
-            "section_title": "INTRODUCTION",
+            "section_title": "PROSTHODONTICS Share     DIFFERENT SPACER DESIGNS IN…",
             "importance_rank": 2
         },
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 5,
-            "section_title": "CONCLUSION",
+            "page_number": 6,
+            "section_title": "View publication stats 15. Smith PW, Richmond R, McCord JF…",
             "importance_rank": 3
+        },
+        {
+            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
+            "page_number": 2,
+            "section_title": "THE CLASSIFICATION OF SPACER DESIGNS",
+            "importance_rank": 4
         },
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
             "page_number": 4,
             "section_title": "5. HALPERIN: He recommends making a custom tray by giving…",
-            "importance_rank": 4
-        },
-        {
-            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 5,
-            "section_title": "CONTRAINDICA TIONS FOR USING SP ACER",
             "importance_rank": 5
         },
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
             "page_number": 2,
-            "section_title": "PROSTHODONTICS Share     ABSTRACT An Impression is…",
+            "section_title": "INTRODUCTION",
             "importance_rank": 6
         },
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
             "page_number": 5,
-            "section_title": "OTHER DESIGNS 1. Minimal-pressure technique for the maxillary arch Based…",
+            "section_title": "OTHER DESIGNS 1. Minimal-pressure technique for the maxillary arch Fig.…",
             "importance_rank": 7
         },
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 6,
-            "section_title": "© Guident.net 2018 All right Reserved | Developed By Ivory…",
+            "page_number": 3,
+            "section_title": "DIFFERENT SPACER DESIGNS WITH VARIOUS CONCEPTS",
             "importance_rank": 8
-        },
-        {
-            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 3,
-            "section_title": "DIFFERENT SP ACER DESIGNS WITH V ARIOUS CONCEPTS",
-            "importance_rank": 9
-        },
-        {
-            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 2,
-            "section_title": "THE CLASSIFICA TION OF SP ACER DESIGNS",
-            "importance_rank": 10
-        },
-        {
-            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 3,
-            "section_title": "1. Tin foil: As recommended by Roy Mac Gregory in…",
-            "importance_rank": 11
         },
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
             "page_number": 5,
             "section_title": "REFERENCES",
-            "importance_rank": 12
+            "importance_rank": 9
+        },
+        {
+            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
+            "page_number": 3,
+            "section_title": "MATERIALS USED FOR MAKING SPACERS:",
+            "importance_rank": 10
         }
     ],
     "subsection_analysis": [
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 2,
-            "refined_text": "DIFFERENT SP ACER DESIGNS IN COMPLETE DENTURE PROSTHODONTICS Prosthodontics Dr. Yogeshwari (P .G. Student), Dr . Himanshu Aeran (Director Principal & HOD), Department of Prosthodontics And Crown & Bridge, Seema Dental College & Hospital, Rishikesh Uttarakhand, India 1-4 2 5"
-        },
-        {
-            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 2,
-            "refined_text": "Though custom impression trays are used for making final impression in complete denture, there is improper knowledge of custom-impression tray designs among dentists and thus making them dependent on their technicians to do so. Selective Presuure may be achieved by scrapping the primary cast/impression in the selective areas or by the fabrication of a custom/special tray with proper spacer design with dif ferent materials & designs, adequate extensions, tissue stops, escape holes for relief. we can achieve compression on tissues in dif ferent areas(Stress Bearing Areas)"
-        },
-        {
-            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
             "page_number": 5,
-            "refined_text": "The use of Custom T rays with Relief and escape holes for selective pressure of the edentulous ridges, regardless of the type of impression material used results in the distribution of pressure so that the impression force is decreased and the bite pressure is transferred to the stress bearing areas which inhibits soft tissue abuse and bone resorbtion. This article shows that a varied range of spacer designs are available for dif ferent clinical situations. And based on the particular demand, the dentist needs to select the spacer design for the success of of the prosthesis to be made."
-        },
-        {
-            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 4,
-            "refined_text": "He recommends making a custom tray by giving Peripheral relief by providing 1 mm thick wax relief over the peripheral extensions and buccal slope region of tray including PPS and that the custom tray be in intimate contact with basal seat areas. First involving the use of low-fusing modelling compound (Kerr white cake compound) to make the primary impression and borders are refined with Kerr green stick compound. Border molding is done with green stick compound before making the secondary impression with ZOE paste , based on selective-pressure technique used on high arched palate."
-        },
-        {
-            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 5,
-            "refined_text": "In such cases, carbide bur can be used to remove about 1 mm of the custom tray material from the crest of ridge area. In cases of highly resorbed ridges, spacer is not used as a solid tray is easier to manage."
+            "refined_text": "Fig 10 In cases of highly resorbed ridges, spacer is not used as a solid tray is easier to manage. In such cases, carbide bur can be used to remove about 1 mm of the custom tray material from the crest of ridge area. CONCLUSION While making impression, one should apply pressure selectively only in certain areas, which can withstand the forces of mastication."
         },
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
             "page_number": 2,
-            "refined_text": "Out of which the most acceptable is Boucherâ€™s Selective Pressure Therory , Which may be achieved by scrapping the cast in selective areas or by the fabrication of a custom tray with proper spacer design with dif ferent materials & designs, adequate extensions, tissue stops, escape holes, tray handles, and polymerization time regarding custom impression trays in prosthodontics. This article will give a view to the dentists as per various clinical situations in their practice on tray handles, and polymerization time regarding custom impression trays in prosthodontics. Many techniques are advocated for making impressions by various authors."
-        },
-        {
-            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 5,
-            "refined_text": "Partial spacers are given as they cover specific areas: a. T Shape Spacer: Minimal-pressure technique for the maxillary arch Based on the minimal-pressure technique, a 1 mm base-plate wax is placed over the basal area except on the right and left posterior hard palate. Partial spacer designs in the mandible cover only the anterior residual alveolar ridge when it is resorbed, flabby or atrophied."
+            "refined_text": "PROSTHODONTICS Share     DIFFERENT SPACER DESIGNS IN COMPLETE DENTURE PROSTHODONTICS Prosthodontics Dr. Yogeshwari (P.G. Student), Dr. Himanshu Aeran (Director Principal & HOD), Department of Prosthodontics And Crown & Bridge, Seema Dental College & Hospital, Rishikesh Uttarakhand, India ABSTRACT An Impression is the first step in the fabrication of a complete denture prosthesis."
         },
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
             "page_number": 6,
-            "refined_text": "Ivory India Dental Lab Expo Guident Dental A wards Facethetics Medic Mentor Indian Dental Association Help & Support Submit Y our Article Subscribe For Magazine Privacy Policy Disclaimer Contact Us Cancellation & Return      View publication stats Comparative evaluation of the accuracy of dif ferent materials used for fabrication of custom impression trays to make impression in partially edentulous situations. The design and use of special trays in prosthodontics: guidelines to improve clinical ef fectiveness."
-        },
-        {
-            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
-            "page_number": 3,
-            "refined_text": "T o be used while taking Final impressions from metallic oxide impression materials. In the mandible 1 mm thick base-plate wax covers the mandibular ridge except buccal shelf area and retromolar pad area. On the Selective Pressure T echnique, he recommends placing a layer of pink baseplate wax on the areas of soft tissue."
+            "refined_text": "Smith PW, Richmond R, McCord JF (1999) The design and use of special trays in prosthodontics: guidelines to improve clinical effectiveness. Br Dent J 187: 423-426. 16."
         },
         {
             "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
             "page_number": 2,
-            "refined_text": "They help in proper vertical seating of the impression tray , they and control the thickness of the impression material. It is made to cover the whole residual ridge except PPS area in maxilla and buccal shelf and retromylohyoid area in the mandible. Thus providing space for impression material."
+            "refined_text": "It is made to cover the whole residual ridge except PPS area in maxilla and buccal shelf and retromylohyoid area in the mandible. Thus providing space for impression material. It is made to cover specific areas only."
+        },
+        {
+            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
+            "page_number": 4,
+            "refined_text": "He recommends making a custom tray by giving Peripheral relief by providing 1 mm thick wax relief over the peripheral extensions and buccal slope region of tray including PPS and that the custom tray be in intimate contact with basal seat areas. Which makes the internal finish lines to form a butt joint of the compound to the tray after border molding is completed. No secondary wash impression is needed."
+        },
+        {
+            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
+            "page_number": 2,
+            "refined_text": "The need to make accurate impressions is the fundamental to practising prosthodontics, and thus it necessitates dentists to make careful assessment of the tissues to be recorded in the impression, the type of trays to be used, impression materials, and techniques to be used. There are four basic impression theories that have been proposed and accepted over the years being: Mucostatic, Mucocompressive, Minimal Pressure, Selective Pressure Techniques. Other being Muco-Seal Techniue, Impression by the use of sub-atmospheric pressure, Impression for compromised patients, Impression technique for patients with severely resorbed mandibular ridges."
+        },
+        {
+            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
+            "page_number": 5,
+            "refined_text": "Minimal-pressure technique for the maxillary arch Fig. 8 Based on the minimal-pressure technique, a 1 mm base-plate wax is placed over the basal area except on the right and left posterior hard palate. Then four tissue stops, are made at the canine and molar region. The material of choice is rubber generally."
+        },
+        {
+            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
+            "page_number": 3,
+            "refined_text": "1. BOUCHERs: He advocates the placement of a 1mm thick baseplate wax within the outlined border on the cast to provide space for the final impression. He suggests not to cover the posterior palatal Seal Area with the wax spacer so that the custom tray touches the mucosa directly and the additional stress placed here during impression making would create a posterior palatal seal. Also this part of the tray will act as a guiding stop to help position the tray properly during impression procedures."
+        },
+        {
+            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
+            "page_number": 5,
+            "refined_text": "A critical analysis of mid-century impression techniques for full dentures. J Prosthet Dent 1: 472-490. 2. An analysis of the development of complete denture impression techniques."
+        },
+        {
+            "document": "DIFFERENTSPACERDESIGNSINCOMPLETEDENTUREPROSTHODONTICS.pdf",
+            "page_number": 3,
+            "refined_text": "Tin foil: As recommended by Roy Mac Gregory in the region of incisive papilla and midpalatine raphe 2. Casting wax: As recommended by Neil. In thickness of 0.9 mm to be adapted all over except PPS area."
         }
     ]
 }

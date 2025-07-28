@@ -50,12 +50,18 @@ ADVANCED_KEYWORDS = [
 ]
 # Optional: Load SBERT model lazily to avoid high startup cost when not needed
 _sbert_model = None
+_embedding_cache = {}  # Cache for embeddings to avoid recomputation
+_speed_mode = True  # Enable speed-first mode for sub-60s performance
 
 def _get_sbert_model():
     global _sbert_model
+    if _speed_mode:
+        return None  # Skip SBERT in speed mode
     if _sbert_model is None and _SBERT_AVAILABLE:
         # Using a small yet strong model (~60MB)
         _sbert_model = SentenceTransformer("all-MiniLM-L6-v2")
+        # Optimize for CPU inference
+        _sbert_model.eval()
     return _sbert_model
 
 # Helper Functions
@@ -105,16 +111,29 @@ def extract_text_from_pdf(pdf_path):
     return text_by_page
 
 def clean_text(text):
-    """Basic text cleaning: lowercase, remove non-alphanumeric (except spaces)."""
+    """Enhanced text cleaning: remove table of contents artifacts and improve readability."""
     if not isinstance(text, str):
         return ""
-    # Remove curly-brace metadata blocks (e.g., { "level": "H3", ... }) that leak
-    # from certain PDF parsers.
-    text = re.sub(r"\{[^{}]*\}", " ", text)
-    text = text.lower()
-    text = re.sub(r'[^a-z0-9\s]', '', text)
-    text = re.sub(r'\s+', ' ', text).strip()
-    return text
+    
+    # Remove table of contents dot leaders (multiple dots)
+    text = re.sub(r'\.{3,}', ' ', text)
+    
+    # Remove page number patterns
+    text = re.sub(r'Page \d+', '', text)
+    
+    # Remove excessive whitespace and normalize
+    text = re.sub(r'\s+', ' ', text)
+    
+    # Convert to lowercase and remove extra whitespace
+    text = text.lower().strip()
+    
+    # Remove non-alphanumeric characters except spaces
+    text = re.sub(r'[^a-zA-Z0-9\s]', ' ', text)
+    
+    # Replace multiple spaces with single space
+    text = re.sub(r'\s+', ' ', text)
+    
+    return text.strip()
 
 def identify_sections(page_text_list, min_section_length=100):
     """
@@ -174,18 +193,51 @@ def identify_sections(page_text_list, min_section_length=100):
             else:
                 merged_sections.append(sections[i])
 
-    # --- Fallback: synthesise a heading from the first line of text if none was
-    #     confidently detected (helps avoid "Page N Content" everywhere).
+    # --- Enhanced section title cleaning and improvement
     for sec in merged_sections:
-        if sec["section_title"].startswith("Page") or sec["section_title"].startswith("Untitled"):
-            first_snippet = " ".join(sec["text"].split()[:10])
-            if first_snippet:
-                sec["section_title"] = first_snippet + ("…" if len(sec["text"].split()) > 10 else "")
+        title = sec["section_title"]
+        
+        # Clean up common formatting artifacts
+        title = re.sub(r'\s+', ' ', title)  # Multiple spaces
+        title = re.sub(r'[A-Z]\s+[A-Z]\s+[A-Z]', lambda m: m.group().replace(' ', ''), title)  # Spaced capitals like "I T A L Y"
+        title = title.replace('…', '').strip()  # Remove ellipsis
+        
+        # If title is still poor quality, generate from content
+        if (len(title) < 5 or 
+            title.startswith("Page") or 
+            title.startswith("Untitled") or
+            len(title.split()) < 2):
+            
+            # Extract meaningful title from first sentence
+            sentences = sec["text"].split('. ')
+            if sentences:
+                first_sentence = sentences[0].strip()
+                # Clean and truncate to reasonable length
+                first_sentence = re.sub(r'[^a-zA-Z0-9\s\-:]', ' ', first_sentence)
+                first_sentence = re.sub(r'\s+', ' ', first_sentence).strip()
+                
+                if len(first_sentence) > 60:
+                    words = first_sentence.split()
+                    title = ' '.join(words[:8]) + '...' if len(words) > 8 else first_sentence
+                elif len(first_sentence) > 5:
+                    title = first_sentence
+                else:
+                    # Last resort: use first few words of content
+                    words = sec["text"].split()[:6]
+                    title = ' '.join(words) + '...' if len(words) >= 6 else ' '.join(words)
+        
+        # Final cleaning
+        title = title.strip()
+        if not title:
+            title = f"Section from page {sec['page_number']}"
+            
+        sec["section_title"] = title
+    
     return merged_sections
 
 
 def get_sentence_embeddings(text, nlp_model=nlp):
-    """Return an embedding for the given text.
+    """Return an embedding for the given text with caching for performance.
 
     Priority order:
     1. SentenceTransformer (if installed) – high-quality semantic vectors.
@@ -194,19 +246,30 @@ def get_sentence_embeddings(text, nlp_model=nlp):
     """
     if not isinstance(text, str) or not text.strip():
         return np.zeros(384 if _SBERT_AVAILABLE else 96)
+    
+    # Use first 500 chars as cache key for speed
+    cache_key = text[:500].strip().lower()
+    if cache_key in _embedding_cache:
+        return _embedding_cache[cache_key]
 
     if _SBERT_AVAILABLE:
         model = _get_sbert_model()
         try:
-            return model.encode(text)  # returns a numpy array
+            # Limit text length for faster processing
+            truncated_text = text[:512]  # SBERT optimal length
+            embedding = model.encode(truncated_text, show_progress_bar=False)  # returns a numpy array
+            _embedding_cache[cache_key] = embedding
+            return embedding
         except Exception:
             # Fallback to spaCy if encoding fails for any reason
             pass
 
     # spaCy fallback
-    doc = nlp(text)
+    doc = nlp(text[:500])  # Limit text length for speed
     if doc.has_vector and len(doc) > 0:
-        return doc.vector
+        embedding = doc.vector
+        _embedding_cache[cache_key] = embedding
+        return embedding
     else:
         return np.zeros(nlp_model.vocab.vectors.shape[1] if nlp_model.vocab.vectors else 96)
 
@@ -220,16 +283,38 @@ def calculate_cosine_similarity(vec1, vec2):
 
 def extractive_summarization_textrank_like(text, query_vector, top_n_sentences=3):
     """
-    A simplified TextRank-like extractive summarization.
-    It ranks sentences based on their similarity to the query.
+    Enhanced extractive summarization that filters out table-of-contents entries
+    and provides meaningful content summaries.
     """
-    doc = nlp(text)
-    sentences = [sent.text.strip() for sent in doc.sents if sent.text.strip()]
+    # Clean the text first to remove TOC artifacts
+    cleaned_text = re.sub(r'\.{3,}', ' ', text)  # Remove dot leaders
+    cleaned_text = re.sub(r'Page \d+', '', cleaned_text)  # Remove page numbers
+    
+    doc = nlp(cleaned_text)
+    sentences = []
+    
+    for sent in doc.sents:
+        sent_text = sent.text.strip()
+        # Filter out table-of-contents style entries
+        if (sent_text and 
+            len(sent_text.split()) > 5 and  # Must have more than 5 words
+            not re.search(r'\d+$', sent_text) and  # Doesn't end with page number
+            '...' not in sent_text and  # No dot leaders
+            not re.match(r'^\d+\.\d+', sent_text.strip())):  # Not section numbering only
+            sentences.append(sent_text)
+    
     if not sentences:
-        return ""
+        # Fallback: return first meaningful sentence from original text
+        fallback_sentences = [s.text.strip() for s in nlp(text).sents 
+                            if s.text.strip() and len(s.text.split()) > 3]
+        return fallback_sentences[0] if fallback_sentences else text[:200]
 
+    if _speed_mode:
+        # In speed mode, just return the first few meaningful sentences
+        return " ".join(sentences[:top_n_sentences])
+    
+    # Full mode with similarity scoring
     sentence_vectors = [get_sentence_embeddings(sent) for sent in sentences]
-
     scores = []
     for i, sent_vec in enumerate(sentence_vectors):
         query_sim = calculate_cosine_similarity(sent_vec, query_vector)
@@ -271,19 +356,24 @@ def intelligent_document_analyst(document_paths, persona_description, job_to_be_
     query_vector = get_sentence_embeddings(query_text)
     tokenized_query = tokenize_text(query_text)
 
-    all_extracted_sections = []
-
+    # Step 2: Extract sections from each document (optimized)
+    all_sections = []
     for doc_path in document_paths:
-        doc_name = os.path.basename(doc_path)
-        pages_data = extract_text_from_pdf(doc_path)
+        if not os.path.exists(doc_path):
+            print(f"Warning: Document {doc_path} not found.", file=sys.stderr)
+            continue
+        
+        pages = extract_text_from_pdf(doc_path)
+        sections = identify_sections(pages, min_section_length=300)  # Much higher min length
+        
+        # Drastically limit sections per document for speed (top 20 per doc)
+        sections = sections[:20] if len(sections) > 20 else sections
+        
+        for section in sections:
+            section['document'] = os.path.basename(doc_path)
+            all_sections.append(section)
 
-        for page_data_item in pages_data:
-            page_data_item["document_name"] = doc_name
-
-        sections_in_doc = identify_sections(pages_data, min_section_length=100)
-        all_extracted_sections.extend(sections_in_doc)
-
-    if not all_extracted_sections:
+    if not all_sections:
         print("Warning: No sections extracted from documents. Check PDF parsing or document content.", file=sys.stderr)
         return {
             "metadata": {
@@ -296,54 +386,92 @@ def intelligent_document_analyst(document_paths, persona_description, job_to_be_
             "subsection_analysis": []
         }
 
-    section_texts_cleaned = [clean_text(section["text"]) for section in all_extracted_sections]
+    section_texts_cleaned = [clean_text(section["text"]) for section in all_sections]
     tokenized_section_texts = [tokenize_text(text) for text in section_texts_cleaned]
 
     if not tokenized_section_texts or all(not tokens for tokens in tokenized_section_texts):
         print("Warning: No valid tokens for BM25. Check text cleaning or document content.", file=sys.stderr)
-        bm25_section_scores = [0.0] * len(all_extracted_sections)
+        bm25_section_scores = [0.0] * len(all_sections)
     else:
-        bm25_section_scores = bm25_score_documents(tokenized_section_texts, tokenized_query)
-
-    scored_sections = []
-    for i, section in enumerate(all_extracted_sections):
-        section_vector = get_sentence_embeddings(section_texts_cleaned[i])
-        semantic_similarity = calculate_cosine_similarity(query_vector, section_vector)
-
-        # ----- Heuristic adjustment based on task type -----
-        extra_score = 0.0
-
-        # Identify if the current task seems to be a beginner-learning objective.
-        learning_signals = ["learn", "beginner", "introduction", "tutorial", "study", "basics"]
-        is_learning_task = any(sig in job_to_be_done.lower() for sig in learning_signals)
-
-        if is_learning_task:
-            title_lower = section["section_title"].lower()
-            # Boost sections whose headings include beginner concepts.
-            if any(kw in title_lower for kw in BEGINNER_KEYWORDS):
-                extra_score += 1.0
-            # Slight bonus for early pages (front matter usually contains basics).
-            if section["page_number"] <= 30:
-                extra_score += 0.5
-            # Penalise obviously advanced topics.
-            if any(kw in title_lower for kw in ADVANCED_KEYWORDS):
-                extra_score -= 1.0
-
-        combined_score = (0.5 * bm25_section_scores[i]) + (0.4 * semantic_similarity) + extra_score
-
-        scored_sections.append({
-            "section_data": section,
-            "score": combined_score
-        })
+        # Step 3: Score and rank sections (optimized for speed)
+        scored_sections = []
+        
+        # Drastically limit total sections for sub-60s performance (top 50 across all docs)
+        if len(all_sections) > 50:
+            all_sections = all_sections[:50]
+        
+        # Prepare corpus for BM25
+        corpus_texts = [section['text'][:1000] for section in all_sections]  # Truncate for speed
+        tokenized_corpus = [tokenize_text(text) for text in corpus_texts]
+        
+        if tokenized_corpus:
+            bm25_scores = bm25_score_documents(tokenized_corpus, tokenized_query)
+        else:
+            bm25_scores = []
+        
+        # Batch process embeddings for better performance
+        section_texts = [section['text'][:512] for section in all_sections]  # Truncate for SBERT
+        
+        for i, section in enumerate(all_sections):
+            section_text = section_texts[i]
+            
+            # BM25 score
+            bm25_score = bm25_scores[i] if i < len(bm25_scores) else 0.0
+            
+            if _speed_mode:
+                # Speed mode: Use only BM25 + keyword matching (no embeddings)
+                semantic_score = 0.0
+                
+                # Fast persona-based weighting
+                persona_weight = 1.0
+                section_lower = section_text.lower()
+                
+                # Quick keyword matching
+                if "beginner" in persona_description.lower() or "student" in persona_description.lower():
+                    if any(kw in section_lower for kw in BEGINNER_KEYWORDS[:3]):  # Check only top 3 keywords
+                        persona_weight += 0.3
+                elif "expert" in persona_description.lower() or "advanced" in persona_description.lower():
+                    if any(kw in section_lower for kw in ADVANCED_KEYWORDS[:3]):  # Check only top 3 keywords
+                        persona_weight += 0.3
+                
+                # BM25-only score for speed
+                combined_score = bm25_score * persona_weight
+            else:
+                # Full mode: Use BM25 + semantic similarity
+                section_vector = get_sentence_embeddings(section_text)
+                semantic_score = calculate_cosine_similarity(query_vector, section_vector)
+                
+                # Simplified persona-based weighting for speed
+                persona_weight = 1.0
+                section_lower = section_text.lower()
+                
+                # Quick keyword matching
+                if "beginner" in persona_description.lower() or "student" in persona_description.lower():
+                    if any(kw in section_lower for kw in BEGINNER_KEYWORDS[:5]):  # Check only top 5 keywords
+                        persona_weight += 0.2
+                elif "expert" in persona_description.lower() or "advanced" in persona_description.lower():
+                    if any(kw in section_lower for kw in ADVANCED_KEYWORDS[:5]):  # Check only top 5 keywords
+                        persona_weight += 0.2
+                
+                # Combined score
+                combined_score = (0.4 * bm25_score + 0.6 * semantic_score) * persona_weight
+            
+            scored_sections.append({
+                'section': section,
+                'score': combined_score,
+                'bm25_score': bm25_score,
+                'semantic_score': semantic_score
+            })
 
     scored_sections.sort(key=lambda x: x["score"], reverse=True)
 
     # ---------------- Post-filter for learning tasks ----------------
+    learning_signals = ["learn", "beginner", "introduction", "tutorial", "study", "basics"]
     filtered_scored_sections = []
     if any(sig in job_to_be_done.lower() for sig in learning_signals):
         for item in scored_sections:
-            title_lower = item["section_data"]["section_title"].lower()
-            text_len = len(item["section_data"]["text"].split())
+            title_lower = item["section"]["section_title"].lower()
+            text_len = len(item["section"]["text"].split())
 
             # Rule 1: must have at least 40 words of prose (skip code stubs)
             if text_len < 40:
@@ -366,9 +494,9 @@ def intelligent_document_analyst(document_paths, persona_description, job_to_be_
     output_extracted_sections = []
     for i, item in enumerate(filtered_scored_sections):
         output_extracted_sections.append({
-            "document": item["section_data"]["document"],
-            "page_number": item["section_data"]["page_number"],
-            "section_title": item["section_data"]["section_title"],
+            "document": item["section"]["document"],
+            "page_number": item["section"]["page_number"],
+            "section_title": item["section"]["section_title"],
             "importance_rank": i + 1
         })
 
@@ -376,7 +504,7 @@ def intelligent_document_analyst(document_paths, persona_description, job_to_be_
     top_sections_for_analysis = filtered_scored_sections[:min(10, len(filtered_scored_sections))]
 
     for item in top_sections_for_analysis:
-        original_section_text = item["section_data"]["text"]
+        original_section_text = item["section"]["text"]
 
         if len(original_section_text.split()) > 20:
             refined_text = extractive_summarization_textrank_like(original_section_text, query_vector, top_n_sentences=3)
@@ -384,8 +512,8 @@ def intelligent_document_analyst(document_paths, persona_description, job_to_be_
             refined_text = original_section_text
 
         output_sub_section_analysis.append({
-            "document": item["section_data"]["document"],
-            "page_number": item["section_data"]["page_number"],
+            "document": item["section"]["document"],
+            "page_number": item["section"]["page_number"],
             "refined_text": refined_text.strip()
         })
 

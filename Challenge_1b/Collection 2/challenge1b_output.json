@@ -5,1074 +5,180 @@
         ],
         "persona": "traveller planner",
         "job_to_be_done": "I want to plan a trip to Italy",
-        "processing_timestamp": "2025-07-27T22:30:16.331314"
+        "processing_timestamp": "2025-07-28T06:38:11.802558"
     },
     "extracted_sections": [
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 59,
-            "section_title": "SHOPS & RESTAURANTS:",
+            "page_number": 3,
+            "section_title": "ABOUT ARNO TRAVEL Founded in 1969, Arno Travel is an…",
             "importance_rank": 1
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 12,
-            "section_title": "PUGLIESE STYLE",
+            "page_number": 1,
+            "section_title": "I T A L Y T R A V E…",
             "importance_rank": 2
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 58,
-            "section_title": "ITALY BY TIPS114 ITALY BY TIPS Don’t get caught off…",
+            "page_number": 6,
+            "section_title": "10 ITALY BY THE HOUR ITALY BY THE HOUR It…",
             "importance_rank": 3
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 19,
-            "section_title": "DINNER",
-            "importance_rank": 4
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 3,
-            "section_title": "ABOUT ARNO TRAVEL Founded in 1969, Arno Travel is an…",
-            "importance_rank": 5
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 14,
-            "section_title": "ITALY BY ITINERARY",
-            "importance_rank": 6
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 51,
-            "section_title": "SOUTHERN ITALY Nicknamed “Mezzogiorno” – literally “midday” – Southern Italy…",
-            "importance_rank": 7
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 45,
-            "section_title": "Called Toscana in Italian, this region is the perfect microcosm.…",
-            "importance_rank": 8
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 12,
-            "section_title": "THE GRAND TOUR A Victorian trend for aristocratic young men…",
-            "importance_rank": 9
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 58,
-            "section_title": "HEALTH:",
-            "importance_rank": 10
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 45,
-            "section_title": "FLORENCE",
-            "importance_rank": 11
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 7,
-            "section_title": "ITALY BY MONTH12 JANUARY This new year is marked by…",
-            "importance_rank": 12
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 11,
-            "section_title": "ITALY BY MONTH",
-            "importance_rank": 13
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 36,
-            "section_title": "THE VATICAN Not technically part of Italy, we’ll nonetheless go…",
-            "importance_rank": 14
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 54,
-            "section_title": "ITALY BY REGION",
-            "importance_rank": 15
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 16,
-            "section_title": "ITALY BY ITINERARY",
-            "importance_rank": 16
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 18,
-            "section_title": "ITALY BY ITINERARY",
-            "importance_rank": 17
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 20,
-            "section_title": "PRIMI (FIRST COURSES)",
-            "importance_rank": 18
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 20,
-            "section_title": "ITALY BY COURSES38 ANTIPASTI (APPETIZERS) Antipasti are a good way…",
-            "importance_rank": 19
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 47,
-            "section_title": "SAN GIMIGNANO",
-            "importance_rank": 20
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 50,
-            "section_title": "SORRENTO",
-            "importance_rank": 21
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 15,
-            "section_title": "SICILY AND THE ISLANDS",
-            "importance_rank": 22
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 6,
-            "section_title": "ARNO TRAVEL’S FAVORITES",
-            "importance_rank": 23
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 33,
-            "section_title": "ITALY BY PASSION",
-            "importance_rank": 24
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 30,
-            "section_title": "SICILY AND SARDINIA",
-            "importance_rank": 25
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 35,
-            "section_title": "ITALY BY REGION68 ROME Legend has it that Rome was…",
-            "importance_rank": 26
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 48,
-            "section_title": "ASSISI",
-            "importance_rank": 27
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 6,
-            "section_title": "A DAY IN THE LIFE OF AN ITALIAN",
-            "importance_rank": 28
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 21,
-            "section_title": "FRUTTI E DOLCI (FRUIT AND DESSERTS)",
-            "importance_rank": 29
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 32,
-            "section_title": "CALCIO",
-            "importance_rank": 30
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 43,
-            "section_title": "ITALY BY REGION",
-            "importance_rank": 31
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 47,
-            "section_title": "ITALY BY REGION",
-            "importance_rank": 32
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 43,
-            "section_title": "PADUA",
-            "importance_rank": 33
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 25,
-            "section_title": "PUGLIA",
-            "importance_rank": 34
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 48,
-            "section_title": "1000 BC, establishing the towns of Spoleto, Gubbio and Assisi. The protracted battle for",
-            "importance_rank": 35
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 41,
-            "section_title": "VENICE",
-            "importance_rank": 36
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 52,
-            "section_title": "MATERA",
-            "importance_rank": 37
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 57,
-            "section_title": "OLBIA",
-            "importance_rank": 38
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 52,
-            "section_title": "ALBEROBELLO A UNESCO World Heritage Site, Alberobello seems quite fake.…",
-            "importance_rank": 39
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 38,
-            "section_title": "TURIN",
-            "importance_rank": 40
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "HIGHLIGHTS",
-            "importance_rank": 41
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 21,
-            "section_title": "LIQUORI (LIQUEURS)",
-            "importance_rank": 42
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 19,
-            "section_title": "36 LUNCH Italians are notoriously always on the go and…",
-            "importance_rank": 43
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 59,
-            "section_title": "CREDIT CARDS & ELECTRONIC PAYMENTS:",
-            "importance_rank": 44
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 7,
-            "section_title": "MARCH",
-            "importance_rank": 45
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 37,
-            "section_title": "ITALY BY REGION",
-            "importance_rank": 46
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 52,
-            "section_title": "BASILICATA",
-            "importance_rank": 47
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 57,
-            "section_title": "GOLFO ARANCI",
-            "importance_rank": 48
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 44,
-            "section_title": "Since ancient times, the verdant plains of the region’s Po…",
-            "importance_rank": 49
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 25,
-            "section_title": "48 NAPLES AND CAMPANIA Procida lemons are key to making…",
-            "importance_rank": 50
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 28,
-            "section_title": "ROCK CLIMBING The soaring rock walls of the Dolomites prove…",
-            "importance_rank": 51
         },
         {
             "document": "italy-guide-by-Arno.pdf",
             "page_number": 2,
             "section_title": "BENVENUTO! Welcome to Italy! We at Arno Travel will be…",
-            "importance_rank": 52
+            "importance_rank": 4
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 51,
-            "section_title": "PUGLIA",
-            "importance_rank": 53
+            "page_number": 7,
+            "section_title": "MARCH",
+            "importance_rank": 5
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 49,
-            "section_title": "MT VESUVIUS",
-            "importance_rank": 54
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 27,
-            "section_title": "ITALY BY THRILL52 Thanks to the varied terrains, mountains, lakes,…",
-            "importance_rank": 55
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 25,
-            "section_title": "SICILY",
-            "importance_rank": 56
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 28,
-            "section_title": "SNOWBOARDING",
-            "importance_rank": 57
+            "page_number": 6,
+            "section_title": "A DAY IN THE LIFE OF AN ITALIAN",
+            "importance_rank": 6
         },
         {
             "document": "italy-guide-by-Arno.pdf",
             "page_number": 8,
             "section_title": "MAY",
-            "importance_rank": 58
+            "importance_rank": 7
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 57,
-            "section_title": "THE COSTA SMERALDA",
-            "importance_rank": 59
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 42,
-            "section_title": "Today, Venice, Gondoliers call out their warning song before going…",
-            "importance_rank": 60
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 31,
-            "section_title": "ITALY BY PASSION60 RELIGION Almost 80% of Italians identify as…",
-            "importance_rank": 61
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 48,
-            "section_title": "PERUGIA",
-            "importance_rank": 62
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 17,
-            "section_title": "EMILIA-ROMAGNA FOOD HEAVEN To many a gourmand, Emilia-Romagna is Italy’s…",
-            "importance_rank": 63
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 51,
-            "section_title": "POLIGNANO A MARE",
-            "importance_rank": 64
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 39,
-            "section_title": "Milan is a futuristic and fast-paced metro- polis with New…",
-            "importance_rank": 65
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 13,
-            "section_title": "ITALY BY ITINERARY",
-            "importance_rank": 66
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 24,
-            "section_title": "TUSCANY",
-            "importance_rank": 67
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 44,
-            "section_title": "MODENA",
-            "importance_rank": 68
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 37,
-            "section_title": "AND CINQUE TERRE72",
-            "importance_rank": 69
+            "page_number": 4,
+            "section_title": "TABLE OF CONTENTS ARNO TRAVEL’S FAVORITES ITALY BY THE HOUR…",
+            "importance_rank": 8
         },
         {
             "document": "italy-guide-by-Arno.pdf",
             "page_number": 9,
-            "section_title": "ITALY BY MONTH",
-            "importance_rank": 70
+            "section_title": "16 ITALY BY MONTH JUNE The summer season officially starts…",
+            "importance_rank": 9
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 13,
-            "section_title": "MILANO TO PORTOFINO",
-            "importance_rank": 71
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "SAILING IN VENICE",
-            "importance_rank": 72
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "COLOSSEUM",
-            "importance_rank": 73
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 10,
-            "section_title": "OCTOBER October is a fabulous time to visit Italy but…",
-            "importance_rank": 74
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 10,
-            "section_title": "DECEMBER",
-            "importance_rank": 75
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 29,
-            "section_title": "THE DOLOMITES",
-            "importance_rank": 76
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "AEOLIAN ISLANDS",
-            "importance_rank": 77
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 50,
-            "section_title": "POMPEII A stark reminder of human fragility at the whim…",
-            "importance_rank": 78
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 52,
-            "section_title": "GALLIPOLI",
-            "importance_rank": 79
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 23,
-            "section_title": "ITALY BY FOOD SPECIALTY44 So seriously do Italians take their…",
-            "importance_rank": 80
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "MEDIEVAL TUSCAN TOWNS",
-            "importance_rank": 81
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 55,
-            "section_title": "SYRACUSE",
-            "importance_rank": 82
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 50,
-            "section_title": "AMALFI",
-            "importance_rank": 83
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 28,
-            "section_title": "CYCLING",
-            "importance_rank": 84
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 55,
-            "section_title": "AGRIGENTO",
-            "importance_rank": 85
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 49,
-            "section_title": "NAPLES",
-            "importance_rank": 86
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 24,
-            "section_title": "PIEDMONT This is perhaps Italy’s most culinary progressive region, having…",
-            "importance_rank": 87
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 52,
-            "section_title": "OTRANTO",
-            "importance_rank": 88
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 55,
-            "section_title": "CATANIA Much of Catania is constructed from the lava that…",
-            "importance_rank": 89
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 57,
-            "section_title": "CAGLIARI Founded by the Phoenicians in the 8th century BC,…",
-            "importance_rank": 90
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 49,
-            "section_title": "ERCOLANO AND HERCULANEUM",
-            "importance_rank": 91
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 31,
-            "section_title": "IT’S NOT WHAT YOU KNOW…",
-            "importance_rank": 92
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 15,
-            "section_title": "THE DOLOMITES “Enrosadira” is the famed alpenglow of the Dolomites…",
-            "importance_rank": 93
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 56,
-            "section_title": "110 SARDINIA Here, magmatic granite that crystallized some 300 million…",
-            "importance_rank": 94
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 41,
-            "section_title": "VENETO Scan the Veneto coastline, and you might spot signs…",
-            "importance_rank": 95
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 32,
-            "section_title": "LA BELLA FIGURA As much as we can stress the…",
-            "importance_rank": 96
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "HERCULANEUM Smaller than nearby Pompeii, Herculaneum is easier to visit…",
-            "importance_rank": 97
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 46,
-            "section_title": "LUCCA This beautiful old city is just so delightful. Its…",
-            "importance_rank": 98
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 21,
-            "section_title": "SECONDI (SECOND COURSES) Buongustai (foodies) pace themselves for the secondi…",
-            "importance_rank": 99
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 51,
-            "section_title": "BARI",
-            "importance_rank": 100
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 46,
-            "section_title": "PISA",
-            "importance_rank": 101
+            "page_number": 8,
+            "section_title": "14 ITALY BY MONTH EASTER Falling in March or April,…",
+            "importance_rank": 10
         },
         {
             "document": "italy-guide-by-Arno.pdf",
             "page_number": 3,
             "section_title": "ABOUT ARNO TRAVEL",
-            "importance_rank": 102
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 55,
-            "section_title": "MT ETNA",
-            "importance_rank": 103
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 24,
-            "section_title": "EMILIA-ROMAGNA",
-            "importance_rank": 104
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 10,
-            "section_title": "NOVEMBER",
-            "importance_rank": 105
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 29,
-            "section_title": "ITALY BY ADVENTURE56 THE ALPS Arching from Slovenia in the…",
-            "importance_rank": 106
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 59,
-            "section_title": "Upon arrival at your hotel, you may encounter a city…",
-            "importance_rank": 107
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 53,
-            "section_title": "CALABRIA Traces of Neanderthal, Paleolithic and Neolithic life have been…",
-            "importance_rank": 108
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 28,
-            "section_title": "DIVING",
-            "importance_rank": 109
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 22,
-            "section_title": "ITALY BY COURSES",
-            "importance_rank": 110
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 52,
-            "section_title": "LECCE",
-            "importance_rank": 111
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 24,
-            "section_title": "UMBRIA",
-            "importance_rank": 112
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 50,
-            "section_title": "AMALFI COAST",
-            "importance_rank": 113
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 8,
-            "section_title": "EASTER Falling in March or April, Italy goes all out…",
-            "importance_rank": 114
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 55,
-            "section_title": "AEOLIAN ISLANDS",
-            "importance_rank": 115
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 30,
-            "section_title": "58 CENTRAL ITALY Abruzzo’s national parks are among Italy’s least…",
-            "importance_rank": 116
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 55,
-            "section_title": "TAORMINA",
-            "importance_rank": 117
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 52,
-            "section_title": "MARTINA FRANCA",
-            "importance_rank": 118
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 24,
-            "section_title": "LOMBARDY",
-            "importance_rank": 119
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 46,
-            "section_title": "CHIANTI",
-            "importance_rank": 120
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 32,
-            "section_title": "OPERA",
-            "importance_rank": 121
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 58,
-            "section_title": "WHAT TO WEAR:",
-            "importance_rank": 122
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 26,
-            "section_title": "50 FESTIVE FAVORITES In Italy, culinary indulgence is the focus…",
-            "importance_rank": 123
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 57,
-            "section_title": "PALAU AND THE ARCIPELAGO DI LA MADDALENA",
-            "importance_rank": 124
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 38,
-            "section_title": "Italy’s second-largest region is arguably its most elegant: a purveyor…",
-            "importance_rank": 125
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 4,
-            "section_title": "ARNO TRAVEL’S FAVORITES 6 ITALY BY THE HOUR 8 ITALY…",
-            "importance_rank": 126
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 44,
-            "section_title": "BOLOGNA",
-            "importance_rank": 127
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 9,
-            "section_title": "SEPTEMBER",
-            "importance_rank": 128
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 44,
-            "section_title": "PARMA",
-            "importance_rank": 129
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 30,
-            "section_title": "THE SOUTH",
-            "importance_rank": 130
+            "importance_rank": 11
         },
         {
             "document": "italy-guide-by-Arno.pdf",
             "page_number": 8,
             "section_title": "APRIL",
-            "importance_rank": 131
+            "importance_rank": 12
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 59,
-            "section_title": "CONNECTIVITY :",
-            "importance_rank": 132
+            "page_number": 7,
+            "section_title": "12 ITALY BY MONTH ITALY BY MONTH JANUARY This new…",
+            "importance_rank": 13
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 28,
-            "section_title": "SKIING",
-            "importance_rank": 133
+            "page_number": 7,
+            "section_title": "FEBRUARY",
+            "importance_rank": 14
         },
         {
             "document": "italy-guide-by-Arno.pdf",
             "page_number": 5,
-            "section_title": "PINTURICCHIO",
-            "importance_rank": 134
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "MUSEO ARCHEOLOGICO DELL’ALTO ADIGE",
-            "importance_rank": 135
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "CASTEL DEL MONTE",
-            "importance_rank": 136
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 29,
-            "section_title": "VAL PUSTERIA, ALTO-ADIGE",
-            "importance_rank": 137
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 29,
-            "section_title": "BRENTA DOLOMITES, TRENTINO",
-            "importance_rank": 138
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 24,
-            "section_title": "ROME AND LAZIO",
-            "importance_rank": 139
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 48,
-            "section_title": "UMBRIA Umbria is the only Italian region that bor- ders…",
-            "importance_rank": 140
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 50,
-            "section_title": "CAPRI",
-            "importance_rank": 141
+            "section_title": "MADRE",
+            "importance_rank": 15
         },
         {
             "document": "italy-guide-by-Arno.pdf",
             "page_number": 9,
             "section_title": "JULY",
-            "importance_rank": 142
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 21,
-            "section_title": "CAFFÈ (COFFEE)",
-            "importance_rank": 143
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "MUSEO NAZIONALE DEL CINEMA",
-            "importance_rank": 144
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 56,
-            "section_title": "7000 Nuragic sites. The food here is different again from mainland Italian fare. Think",
-            "importance_rank": 145
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 50,
-            "section_title": "ATRANI",
-            "importance_rank": 146
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 59,
-            "section_title": "HOW TO RECHARGE YOUR ELECTRONIC DEVICES:",
-            "importance_rank": 147
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 5,
-            "section_title": "MUSEO DEL NOVECENTO",
-            "importance_rank": 148
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 5,
-            "section_title": "1GALLERIA DEGLI UFFIZI",
-            "importance_rank": 149
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 29,
-            "section_title": "PARCO NAZIONALE DELLE DOLOMITI BELLUNESI, VENETO",
-            "importance_rank": 150
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 5,
-            "section_title": "MUSEION",
-            "importance_rank": 151
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "NAPOLI SOTTERRANEA",
-            "importance_rank": 152
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 40,
-            "section_title": "Italy’s smallest and least populous region, Valle d’Aosta (or, Aosta…",
-            "importance_rank": 153
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 58,
-            "section_title": "ARRIVAL & CITY TAX:",
-            "importance_rank": 154
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 24,
-            "section_title": "VENETO",
-            "importance_rank": 155
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 50,
-            "section_title": "POSITANO",
-            "importance_rank": 156
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 49,
-            "section_title": "CAMPANIA The Campania region is known for its ancient ruins…",
-            "importance_rank": 157
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 1,
-            "section_title": "ITALY TRAVEL GUIDE",
-            "importance_rank": 158
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 5,
-            "section_title": "ITALY BY TIPS   114TABLE OF CONTENTS",
-            "importance_rank": 159
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 9,
-            "section_title": "AUGUST",
-            "importance_rank": 160
+            "importance_rank": 16
         },
         {
             "document": "italy-guide-by-Arno.pdf",
             "page_number": 4,
-            "section_title": "ITALY BY MEAL    32",
-            "importance_rank": 161
+            "section_title": "ITALY BY FOOD SPECIALTY",
+            "importance_rank": 17
         },
         {
             "document": "italy-guide-by-Arno.pdf",
             "page_number": 5,
-            "section_title": "PALAZZO GRASSI",
-            "importance_rank": 162
+            "section_title": "8 ARNO TRAVEL’S FAVORITES 1 SISTINE CHAPEL More than just…",
+            "importance_rank": 18
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 57,
-            "section_title": "GALLURA",
-            "importance_rank": 163
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "MUSEO NAZIONALE DELLA SCIENZA E DELLA",
-            "importance_rank": 164
+            "page_number": 5,
+            "section_title": "MUSEO E GALLERIA BORGHESE",
+            "importance_rank": 19
         },
         {
             "document": "italy-guide-by-Arno.pdf",
             "page_number": 5,
             "section_title": "POMPEII",
-            "importance_rank": 165
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 5,
-            "section_title": "GIOTTO",
-            "importance_rank": 166
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 34,
-            "section_title": "CATAC OMBE DEI CAPPUCCINI",
-            "importance_rank": 167
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 29,
-            "section_title": "VAL GARDENA, ALTO-ADIGE",
-            "importance_rank": 168
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 4,
-            "section_title": "ITALY BY PASSION   58",
-            "importance_rank": 169
+            "importance_rank": 20
         }
     ],
     "subsection_analysis": [
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 59,
-            "refined_text": "Some follow a schedule of 9:00 a.m. to 13:30 p.m. and 2 p.m. to 7:00 p.m. However, it’s important to note that these are general guidelines and may vary depending on the establishment and location. it’s worth noting that many non-tourist shops close on Sundays and Monday mornings, and on Mondays, keep in mind that some restaurants and pizzerias may close their do- ors, so it’s wise to plan your dining options accordingly."
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 12,
-            "refined_text": "Go further south via Polignano a Mare to visit the famous Grotte di Castellana. Whether it be on a road trip, with private transport, by train or plane, head to Bari to see the relics of Father Christmas in the Romanesque cathedral. Further south is the opportunity to visit Santa Maria di Leuca, the very tip of the Italian heel.22"
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 58,
-            "refined_text": "ITALY BY TIPS114 ITALY BY TIPS Don’t get caught off guard during your trip to Italy! Coastal areas benefit from refreshing sea breezes during the day, but cities like Florence and Rome can get hot and humid without that cooling wind. Winters are mildest in the south, offering relief from the cold elsewhere, while summers are the warmest and sunniest across the country."
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
-            "page_number": 19,
-            "refined_text": "Many top-ranked restaurants open only for dinner, with a set-price degustation menu that leaves the major decisions to your chef and frees you up to concentrate on the noble quest to conquer four to six tasting courses. And don’t be afraid to ask to share a dish with your dinner companion(s) so that you can order both a primo and secondo, and perhaps even an antipasto and dolce if you please for a DIY tasting menu. Head to an osteria or pizzeria for simple fare at decent prices, a trattoria for something more mid-range, and a restaurant for a dash of fine dining."
-        },
-        {
-            "document": "italy-guide-by-Arno.pdf",
             "page_number": 3,
-            "refined_text": "ABOUT ARNO TRAVEL Founded in 1969, Arno Travel is an onsite Italian travel planner, a leading com - pany for United States, Brazilian and Mexican luxury tourism for over 50 years. Strategically based in the city center of Florence, Arno comprises a passionate and skilled team dedicated to creating sensational itineraries and delivering the world-class service required by the standards of the premium networks we work with: Virtuoso, Private XO and Travel Leaders. Arno’s dedicated team guarantees professional assistance and creative solutions, ensuring guests enjoy personalized attention and care throughout their stay."
+            "refined_text": "ABOUT ARNO TRAVEL Founded in 1969, Arno Travel is an onsite Italian travel planner, a leading com- pany for United States, Brazilian and Mexican luxury tourism for over 50 years. Committed to offering its clients the best in Italy, and providing guests with me- morable  experiences,  Arno  Travel  specializes  in  selecting  the  finest  properties, sourcing and ideating outstanding experiences and partnering with charismatic experts  to  create  uniquely  enlightening  Italian  journeys. Arno’s  dedicated  team guarantees professional assistance and creative solutions, ensuring guests enjoy personalized  attention  and  care  throughout  their  stay."
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 14,
-            "refined_text": "We then recommend dedicating three or four days to Verona where you can view Mantegnas at Basilica di San Zeno Maggiore, window shop along Via Mazzini then listen to opera in the Roman Arena. For something a tad more dramatic, witness the giants trying to storm Mount Olympus in Giulio Romano’s fresco in the Camera dei Giganti at Palazzo Te. From Verona, you can take a day trip northwest to Valpolicella to sample the highly prized Amarone red wine in the Montecariano Cellars (by appointment), or back east to Soave for a sampling of its namesake Denominazione di Origine Controllata (DOC) white wine at the Azienda Agricola Coffele."
+            "page_number": 1,
+            "refined_text": "I T A L Y   T R A V E L   G U I D E"
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 51,
-            "refined_text": "A hotter, edgier place than the urbane north of Italy, this is an area that still feels like it has secret places to explore, although you will need your own wheels (and some Italian – if you can find someone who doesn’t only speak a local dialect) if you plan to seriously side- step from the beaten track.100 The aggressive history of invasion after invasion along with eco-nomic hardships has produced a fiercely proud people and influenced their distin- ctive cultures and cuisines. Crossing Italy’s boot, the landscape chan- ges subtly with the individuality of its pe- ople and history."
+            "page_number": 6,
+            "refined_text": "10 ITALY BY THE HOUR ITALY BY THE HOUR It is remarkable how different Italy – and thus, Italians – can be from north to south, east to west. It’s hard to sum up a typical day considering the vast differences, histories, habits and even dialects."
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 45,
-            "refined_text": "Called Toscana in Italian, this region is the perfect microcosm. Here, you can dedicate your trip to visiting only World Heritage sites of the region – the cities of Florence, Pisa, San Gimignano, Siena and Pienza, to the Val d’Orcia landscape and the Me- dici Villas and Gardens. Along the way, visit vineyards, a frantoio (olive oil mill), a producer of world-class pecorino (sheep’s milk) cheese, cured prosciutto or even a salumificio producing cured meat products from Cinta Senese, a domestic pig breed from the province of Siena.TUSCANY88"
+            "page_number": 2,
+            "refined_text": "We at Arno Travel will be your trusted companion as you embark on an extraordinary journey through this captivating country. From the iconic cities of Rome, Florence, and Venice to the scenic countryside of Tuscany and the picturesque Amalfi Coast, Italy offers a diverse range of experiences that will leave you enchanted. Whether you’re here to explore ancient ruins, indulge in exquisite cuisine, discover world-class art and architecture, or simply bask in the warm Medi- terranean sun, Italy has something for everyone."
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 12,
-            "refined_text": "Catch the train to Verona for a night or two to see opera in the Roman Arena then to Venice. Today, the Grand Tour is a great way to explore Italy in greater depth, crossing the peninsula from north to south. For the second week, head south to Padua to savor Giotto’s groundbreaking frescoes in the Scrovegni Chapel."
+            "page_number": 7,
+            "refined_text": "The weather in March can be a bit unpredictable in the leadup to the official start of spring on March 21. There are lots of interesting traditions around Easter to experience, from special foods to parades and more. Stazione Leopolda, Florence’s oldest train station, has been transformed into an event space where, for three days in March, foodies can head to visit Taste, a food fair with a program including themed talks, cooking demonstrations, as well as samples of food, coffee and liquor from over 100 Italian artisan producers."
         },
         {
             "document": "italy-guide-by-Arno.pdf",
-            "page_number": 58,
-            "refined_text": "While Italy has public healthcare, it’s not discouraged to obtain insurance as well, as wait times for medical care could be lengthy. It’s always wise to secure comprehensive health and travel insurance before your trip."
+            "page_number": 6,
+            "refined_text": "Be it at home, made on the stovetop in a moka or at the coffee shop (or, “bar”). Politely wait your turn and you’ll likely go thirsty! Stand at the counter like Italians do or take a seat at one of the tables – but be aware that you will possibly be charged a table service."
+        },
+        {
+            "document": "italy-guide-by-Arno.pdf",
+            "page_number": 8,
+            "refined_text": "May is the month of roses. At the table, the recipes are light and tasty – think Caprese salad. This is a great month for those who like to trek … or simply sit in a piazza and enjoy a spritz or white wine."
+        },
+        {
+            "document": "italy-guide-by-Arno.pdf",
+            "page_number": 4,
+            "refined_text": "TABLE OF CONTENTS ARNO TRAVEL’S FAVORITES ITALY BY THE HOUR ITALY BY MONTH ITALY BY ITINERARY Art Cities The Grand Tour Pugliese Style Modern Italy By Design Milano to Portofino Venice to Milano Sicily and the Islands The Dolomites"
+        },
+        {
+            "document": "italy-guide-by-Arno.pdf",
+            "page_number": 9,
+            "refined_text": "16 ITALY BY MONTH JUNE The  summer  season  officially  starts  in  June. Temperatures  rise,  beaches  open  and  the summer  festivals  commence. June  2  is  a  national  holiday  dedicated  to  the  Festa  della Repubblica – Republic Day."
+        },
+        {
+            "document": "italy-guide-by-Arno.pdf",
+            "page_number": 8,
+            "refined_text": "14 ITALY BY MONTH EASTER Falling  in  March  or  April,  Italy  goes  all  out  with  special  occasions  during  Settimana Santa – or, Holy Week. On Good Friday is a candlelit procession to the Colosseum led by the Pope. On Easter Sunday, the Pope then gives his blessings in St Peter’s Square."
         }
     ]
 }
